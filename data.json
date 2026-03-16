@@ -730,7 +730,7 @@
     {
         "software": "Unreal Engine",
         "category": "Material Editor",
-        "action": "Param 'None' (0) node",
+        "action": "Scalar",
         "key": "S + LClick",
         "common": true
     },
@@ -781,6 +781,454 @@
         "category": "Material Editor",
         "action": "Multiply node",
         "key": "M + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Graph Action Menu",
+        "key": "RMB (Graph)",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Selection Node",
+        "key": "LMB on Node",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Add to Selection",
+        "key": "Shift + LMB on Node",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Toggle Selection",
+        "key": "Ctrl + Click on a Node",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Marquee Select (Replace)",
+        "key": "LMB Drag",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Marquee Select (Add)",
+        "key": "Shift + LMB Drag",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Marquee Select (Remove)",
+        "key": "Ctrl + LMB Drag",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Pan the Graph",
+        "key": "RMB Drag",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Zoom to fit Selection",
+        "key": "Home",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Zoom In/Out (Alternative)",
+        "key": "Hold LMB + RMB and Drag",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Zoom In Beyond 1:1",
+        "key": "Ctrl + Zoom",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Go into Child Graph",
+        "key": "PageDn",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Go to Parent Graph",
+        "key": "PageUp",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Node-specific Context Menu",
+        "key": "Right-Click on a Node",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Go to Associated Node/Graph",
+        "key": "Double Left-Click on a Node",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Move Nodes",
+        "key": "LMB Drag on a Node",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Rename Node/Edit Comment",
+        "key": "Left-Click on the Title",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Toggle Breakpoint",
+        "key": "F9",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Clear All Breakpoints",
+        "key": "Ctrl + Shift + F9",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Delay Node",
+        "key": "D + LMB",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Sequence Node",
+        "key": "S + LMB",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Gate Node",
+        "key": "G + LMB",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "For-Each Loop Node",
+        "key": "F + LMB",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Multi-gate Node",
+        "key": "M + LMB",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Do N Times Node",
+        "key": "N + LMB",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Do Once Node",
+        "key": "O + LMB",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Connect to Another Pin",
+        "key": "Left-Click + Drag to Pin",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Filtered Action Menu for Pin",
+        "key": "Left-Click + Drag to graph",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Break All Connections",
+        "key": "Alt + Left-Click on Pin",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Move All Connections",
+        "key": "Ctrl + LMB Drag to Pin",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Get/Set as appropriate",
+        "key": "LMB Drag to Compatible Pin",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Get/Set (via Menu)",
+        "key": "LMB Drag into Graph",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Get Variable",
+        "key": "Ctrl + LMB Drag into Graph",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Set Variable",
+        "key": "Alt + LMB Drag into Graph",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Change Existing Node",
+        "key": "LMB Drag to edge of Get/Set",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Change Category/Reorder",
+        "key": "LMB Drag inside My Blueprint",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Step Forward",
+        "key": "Alt + Period",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Step Backwards",
+        "key": "Alt + Comma",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Step To Next Key",
+        "key": "Period",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Step To Previous Key",
+        "key": "Comma",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Toggle Play",
+        "key": "Shift + Spacebar",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Scrub Time",
+        "key": "B + LMB Drag",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Back",
+        "key": "Alt + Shift + H",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Bottom",
+        "key": "Alt + Shift + J",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Viewport",
+        "action": "Screen Capture",
+        "key": "F9",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Reset Transform (Selected)",
+        "key": "Ctrl + G",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Reset All Transform (All Selected in CR)",
+        "key": "Ctrl + Shift + G",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Set Key (Sequencer)",
+        "key": "Enter",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Add Transform Key (Sequencer)",
+        "key": "S",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Add Key (Curves)",
+        "key": "MMB On Curve",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Add Key (Curves - Alternative)",
+        "key": "Enter",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Add Key (Curves w/ no shape change)",
+        "key": "Ctrl + MMB (Curve)",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Set Key Auto",
+        "key": "1",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Set Key User",
+        "key": "2",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Set Key Break",
+        "key": "3",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Set Key Linear",
+        "key": "4",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Set Key Constant",
+        "key": "5",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Select All Keys Backward (Sequencer)",
+        "key": "Ctrl + [",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Select All Keys Foward (Sequencer)",
+        "key": "Ctrl + ]",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Select All Keys Backward (Curves)",
+        "key": "Ctrl + [",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Select All Keys Foward (Curves)",
+        "key": "Ctrl + ]",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Translate Selected Keys Left",
+        "key": "Ctrl + Left",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Translate Selected Keys Right",
+        "key": "Ctrl + Right",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Animation Editor",
+        "action": "Transform Selection",
+        "key": "Ctrl + M",
         "common": true
     }
 ]
