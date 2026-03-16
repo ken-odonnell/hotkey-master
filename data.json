@@ -25,9 +25,9 @@
     },
     {
         "software": "Maya",
-        "category": "General",
-        "action": "Select Tool",
-        "key": "Q"
+        "category": "Tool Operations",
+        "action": "Complete current tool",
+        "key": "Return"
     },
     {
         "software": "Affinity",
@@ -3172,5 +3172,1007 @@
         "category": "Organization",
         "action": "Parent File",
         "key": "Alt + Up"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Enter tool Edit mode",
+        "key": "Insert"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Select Tool (or Selection Mask marking menu w/ LMB)",
+        "key": "Q"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Move Tool (or Move Tool marking menu w/ LMB)",
+        "key": "W"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Rotate Tool (or Rotate Tool marking menu w/ LMB)",
+        "key": "E"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Scale Tool (or Scale Tool marking menu w/ LMB)",
+        "key": "R"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Show universal manipulator tool",
+        "key": "Ctrl + T"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Show manipulator tool",
+        "key": "T"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Selects the last used tool",
+        "key": "Y"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Move, Rotate, Scale Tool Snapping",
+        "key": "Hold J + Drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Increase manipulator size",
+        "key": "= or +"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Decrease manipulator size",
+        "key": "-"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Move pivot (Move Tool)",
+        "key": "D + LMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Switches between move pivot and move object (Move Tool)",
+        "key": "Insert"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Cycle through In-View editor values",
+        "key": "Tab"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Reverse-cycle through In-view Editor values",
+        "key": "Shift + Tab"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Move components along their normals",
+        "key": "Ctrl + Middle-drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Rotate components along their local X axes",
+        "key": "Ctrl + Middle-drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Tool Operations",
+        "action": "Scale components along their local YZ axes",
+        "key": "Ctrl + Middle-drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Undo",
+        "key": "Ctrl + Z"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Redo",
+        "key": "Ctrl + Y"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Repeat last action",
+        "key": "G"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Switch between object/component selection mode",
+        "key": "F8"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Parent",
+        "key": "P"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Unparent",
+        "key": "Shift + P"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Set key",
+        "key": "S"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Key the selected object position",
+        "key": "Shift + W"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Key the selected object rotation",
+        "key": "Shift + E"
+    },
+    {
+        "software": "Maya",
+        "category": "Action Operations",
+        "action": "Key the selected object scale",
+        "key": "Shift + R"
+    },
+    {
+        "software": "Maya",
+        "category": "Hotbox Display",
+        "action": "Show the hotbox (When pressed down)",
+        "key": "Space"
+    },
+    {
+        "software": "Maya",
+        "category": "Hotbox Display",
+        "action": "Default Hotbox Style (Zones and Menu Rows)",
+        "key": "Alt + M"
+    },
+    {
+        "software": "Maya",
+        "category": "Displaying Objects",
+        "action": "Hide Selection",
+        "key": "Ctrl + H"
+    },
+    {
+        "software": "Maya",
+        "category": "Displaying Objects",
+        "action": "Show Selection",
+        "key": "Shift + H"
+    },
+    {
+        "software": "Maya",
+        "category": "Displaying Objects",
+        "action": "Show Last Hidden",
+        "key": "Ctrl + Shift + H"
+    },
+    {
+        "software": "Maya",
+        "category": "Displaying Objects",
+        "action": "Hide Unselected Objects",
+        "key": "Alt + H"
+    },
+    {
+        "software": "Maya",
+        "category": "Displaying Objects",
+        "action": "Isolate Select > View Selected",
+        "key": "Ctrl + 1"
+    },
+    {
+        "software": "Maya",
+        "category": "Displaying Objects",
+        "action": "Cycle rig display mode",
+        "key": "Alt + A"
+    },
+    {
+        "software": "Maya",
+        "category": "Display Settings",
+        "action": "Wireframe display",
+        "key": "4"
+    },
+    {
+        "software": "Maya",
+        "category": "Display Settings",
+        "action": "Shaded display",
+        "key": "5"
+    },
+    {
+        "software": "Maya",
+        "category": "Display Settings",
+        "action": "Shaded and Textured display",
+        "key": "6"
+    },
+    {
+        "software": "Maya",
+        "category": "Display Settings",
+        "action": "Lighting > Use All Lights",
+        "key": "7"
+    },
+    {
+        "software": "Maya",
+        "category": "Display Settings",
+        "action": "Default quality display setting",
+        "key": "0"
+    },
+    {
+        "software": "Maya",
+        "category": "Display Settings",
+        "action": "Rough quality display setting",
+        "key": "1"
+    },
+    {
+        "software": "Maya",
+        "category": "Display Settings",
+        "action": "Medium quality display setting",
+        "key": "2"
+    },
+    {
+        "software": "Maya",
+        "category": "Display Settings",
+        "action": "Smooth quality display setting",
+        "key": "3"
+    },
+    {
+        "software": "Maya",
+        "category": "File Operations",
+        "action": "New Scene",
+        "key": "Ctrl + N"
+    },
+    {
+        "software": "Maya",
+        "category": "File Operations",
+        "action": "Open Scene",
+        "key": "Ctrl + O"
+    },
+    {
+        "software": "Maya",
+        "category": "File Operations",
+        "action": "Save Scene",
+        "key": "Ctrl + S"
+    },
+    {
+        "software": "Maya",
+        "category": "File Operations",
+        "action": "Save Scene As",
+        "key": "Ctrl + Shift + S"
+    },
+    {
+        "software": "Maya",
+        "category": "File Operations",
+        "action": "Exit Maya",
+        "key": "Ctrl + Q"
+    },
+    {
+        "software": "Maya",
+        "category": "File Operations",
+        "action": "Create file reference",
+        "key": "Ctrl + R"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Set key",
+        "key": "S"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Set key for Rotate",
+        "key": "Shift + E"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Set key for Scale",
+        "key": "Shift + R"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Set key for Translate",
+        "key": "Shift + W"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Insert Keys",
+        "key": "Alt + I"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Inserts a key on a specific channel",
+        "key": "Ctrl + Shift + (E,R,W)"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Insert a key anywhere on a selected curve",
+        "key": "I + MMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Keyframe marking menu",
+        "key": "S + LMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Tangent marking menu",
+        "key": "S + MMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Play animation",
+        "key": "V"
+    },
+    {
+        "software": "Maya",
+        "category": "Animation Operations",
+        "action": "Toggle Multicolor Feedback",
+        "key": "J"
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Move forward one frame in time",
+        "key": "Alt + ."
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Move backward one frame in time",
+        "key": "Alt + ,"
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Go to Next key",
+        "key": "."
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Go to Previous key",
+        "key": ","
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Selects the Next key in Graph Editor",
+        "key": "Ctrl + Alt + ."
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Selects the Previous key in Graph Editor",
+        "key": "Ctrl + Alt + ,"
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Toggles playback on or off",
+        "key": "Alt + V"
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Go to Min Frame",
+        "key": "Alt + Shift + V"
+    },
+    {
+        "software": "Maya",
+        "category": "Playback Control",
+        "action": "Virtual Time Slider mode (scrub timeline)",
+        "key": "K + MMB Drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Camera",
+        "action": "Tumble Tool",
+        "key": "Alt + LMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Camera",
+        "action": "Track Tool (Pan)",
+        "key": "Alt + MMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Camera",
+        "action": "Dolly Tool (Zoom)",
+        "key": "Alt + RMB"
+    },
+    {
+        "software": "Maya",
+        "category": "2D Pan/Zoom",
+        "action": "2D Pan tool",
+        "key": "\\ + MMB"
+    },
+    {
+        "software": "Maya",
+        "category": "2D Pan/Zoom",
+        "action": "2D Zoom tool",
+        "key": "\\ + RMB"
+    },
+    {
+        "software": "Maya",
+        "category": "2D Pan/Zoom",
+        "action": "Enable/disable 2D Pan/Zoom",
+        "key": "\\"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Flood with the current value",
+        "key": "Alt + F"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Turn Show Wireframe on or off",
+        "key": "Alt + A"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Turn Color Feedback on or off",
+        "key": "Alt + C"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Toggle Reflection on or off",
+        "key": "Alt + R"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Artisan Paint Operation marking menu",
+        "key": "U + LMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Modify upper brush radius",
+        "key": "B + Drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Modify lower brush radius",
+        "key": "Shift + B + Drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Edit Paint Effects template brush settings",
+        "key": "Ctrl + B"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Modify maximum displacement / opacity",
+        "key": "M + Drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Modify paint value",
+        "key": "N + Drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Switch to pick color mode",
+        "key": "/"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Poly Brush Tool marking menu",
+        "key": "O + LMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Painting Operations",
+        "action": "Poly UV Tool marking menu",
+        "key": "O + MMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Snapping Operations",
+        "action": "Snap to curves",
+        "key": "C"
+    },
+    {
+        "software": "Maya",
+        "category": "Snapping Operations",
+        "action": "Snap to grids",
+        "key": "X"
+    },
+    {
+        "software": "Maya",
+        "category": "Snapping Operations",
+        "action": "Snap to points",
+        "key": "V"
+    },
+    {
+        "software": "Maya",
+        "category": "Snapping Operations",
+        "action": "Move, Rotate, Scale Tool snapping",
+        "key": "J"
+    },
+    {
+        "software": "Maya",
+        "category": "Snapping Operations",
+        "action": "Move, Rotate, Scale Tool relative snapping",
+        "key": "Shift + J"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Switch between object/component editing",
+        "key": "F8"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Select > Vertex",
+        "key": "F9"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Select > Edge",
+        "key": "F10"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Select > Face",
+        "key": "F11"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Select > UV",
+        "key": "F12"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Select next intermediate object",
+        "key": "Ctrl + I"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Select > Vertex Face",
+        "key": "Alt + F9"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Shrink polygon selection region",
+        "key": "<"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Objects & Components",
+        "action": "Grow polygon selection region",
+        "key": ">"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Show/hide main menu bar",
+        "key": "Ctrl + M"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Show/hide panel menu bar",
+        "key": "Shift + M"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Show/hide panel toolbar",
+        "key": "Ctrl + Shift + M"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Menu Set marking menu",
+        "key": "H + LMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Show Modeling menu set",
+        "key": "F2"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Show Rigging menu set",
+        "key": "F3"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Show Animation menu set",
+        "key": "F4"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Show Dynamics (FX) menu set",
+        "key": "F5"
+    },
+    {
+        "software": "Maya",
+        "category": "Selecting Menus",
+        "action": "Show Rendering menu set",
+        "key": "F6"
+    },
+    {
+        "software": "Maya",
+        "category": "Edit Operations",
+        "action": "Duplicate",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "Maya",
+        "category": "Edit Operations",
+        "action": "Duplicate (Alternative)",
+        "key": "Shift + Drag transform manipulator"
+    },
+    {
+        "software": "Maya",
+        "category": "Edit Operations",
+        "action": "Duplicate Special",
+        "key": "Ctrl + Shift + D"
+    },
+    {
+        "software": "Maya",
+        "category": "Edit Operations",
+        "action": "Duplicate with Transform",
+        "key": "Shift + D"
+    },
+    {
+        "software": "Maya",
+        "category": "Edit Operations",
+        "action": "Group",
+        "key": "Ctrl + G"
+    },
+    {
+        "software": "Maya",
+        "category": "Edit Operations",
+        "action": "Cut",
+        "key": "Ctrl + X"
+    },
+    {
+        "software": "Maya",
+        "category": "Edit Operations",
+        "action": "Copy",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "Maya",
+        "category": "Edit Operations",
+        "action": "Paste",
+        "key": "Ctrl + V"
+    },
+    {
+        "software": "Maya",
+        "category": "Rendering",
+        "action": "Render view next image",
+        "key": "Ctrl + Right Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Rendering",
+        "action": "Render view previous image",
+        "key": "Ctrl + Left Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Rendering",
+        "action": "Open the Color Chooser",
+        "key": "Ctrl + P"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Pan in the Outliner",
+        "key": "Alt + MMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Fast pan in the Outliner",
+        "key": "Alt + Ctrl + MMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Pan in the Attribute Editor",
+        "key": "Alt + MMB"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Switches between Attribute Editor or Channel Box",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Frame All in active panel",
+        "key": "A"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Frame All in all views",
+        "key": "Shift + A"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Frame Selected in active panel",
+        "key": "F"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Frame Selected in all views",
+        "key": "Shift + F"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Switch active window in multi-pane display",
+        "key": "Space (Tap)"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Switch between standard view and full-screen view",
+        "key": "Ctrl + Space"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Redo view change",
+        "key": "]"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Undo view change",
+        "key": "["
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Switch background color",
+        "key": "Alt + B"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "View previous layout",
+        "key": "Shift + {"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "View next layout",
+        "key": "Shift + }"
+    },
+    {
+        "software": "Maya",
+        "category": "Window and View Operations",
+        "action": "Maya Help",
+        "key": "F1"
+    },
+    {
+        "software": "Maya",
+        "category": "Moving Selected Objects",
+        "action": "Move up one pixel",
+        "key": "Alt + Up Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Moving Selected Objects",
+        "action": "Move down one pixel",
+        "key": "Alt + Down Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Moving Selected Objects",
+        "action": "Move left one pixel",
+        "key": "Alt + Left Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Moving Selected Objects",
+        "action": "Move right one pixel",
+        "key": "Alt + Right Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Moving Selected Objects",
+        "action": "Pick Walk Up",
+        "key": "Up Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Moving Selected Objects",
+        "action": "Pick Walk Down",
+        "key": "Down Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Moving Selected Objects",
+        "action": "Pick Walk Left",
+        "key": "Left Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Moving Selected Objects",
+        "action": "Pick Walk Right",
+        "key": "Right Arrow"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Default polygon mesh display (no smoothing)",
+        "key": "1"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Cage + smooth polygon mesh display",
+        "key": "2"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Smooth polygon mesh display",
+        "key": "3"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Convert polygon selection to Vertices",
+        "key": "Ctrl + F9"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Convert polygon selection to Edges",
+        "key": "Ctrl + F10"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Covert polygon selection to Faces",
+        "key": "Ctrl + F11"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Covert polygon selection to UVs",
+        "key": "Ctrl + F12"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Displays original mesh (proxy) and a smoothed version",
+        "key": "Ctrl + `"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Displays Subdiv Proxy options window",
+        "key": "Ctrl + Shift + `"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Toggles display between original proxy and smoothed mesh",
+        "key": "`"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Displays both original proxy and smoothed mesh",
+        "key": "~"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Convert > NURBS to Subdiv, Polygons to Subdiv",
+        "key": "Alt + `"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Displays option window for Convert to Subdiv",
+        "key": "Alt + Shift + ~"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Increases Division Levels for Smooth Mesh Preview",
+        "key": "Page Up"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Decreases Division Levels for Smooth Mesh Preview",
+        "key": "Page Down"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Lock/unlock length of curve",
+        "key": "L (Hold)"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Slide selected component along edge",
+        "key": "Ctrl + Shift + Drag"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Extrude currently selected component",
+        "key": "Shift + Drag transform manipulator"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Activate Quad Draw Tool",
+        "key": "Ctrl + Shift + Q"
+    },
+    {
+        "software": "Maya",
+        "category": "Modeling Operations",
+        "action": "Activate Multi-Cut Tool",
+        "key": "Ctrl + Shift + X"
     }
 ]
