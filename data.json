@@ -18,12 +18,6 @@
         "key": "B"
     },
     {
-        "software": "Blender",
-        "category": "General",
-        "action": "Add Object Menu",
-        "key": "Shift + A"
-    },
-    {
         "software": "Maya",
         "category": "General",
         "action": "Select Tool",
@@ -1288,5 +1282,1889 @@
         "category": "Workspace",
         "action": "Cinema Viewer",
         "key": "P"
+    },
+    {
+        "software": "Blender",
+        "category": "File Menu",
+        "action": "New File",
+        "key": "Ctrl + N"
+    },
+    {
+        "software": "Blender",
+        "category": "File Menu",
+        "action": "Open File",
+        "key": "Ctrl + O"
+    },
+    {
+        "software": "Blender",
+        "category": "File Menu",
+        "action": "Save File",
+        "key": "Ctrl + S"
+    },
+    {
+        "software": "Blender",
+        "category": "File Menu",
+        "action": "Save File As...",
+        "key": "Shift + Ctrl + S"
+    },
+    {
+        "software": "Blender",
+        "category": "File Menu",
+        "action": "Quit Blender",
+        "key": "Ctrl + Q"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Menu",
+        "action": "Undo",
+        "key": "Ctrl + Z"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Menu",
+        "action": "Redo",
+        "key": "Ctrl + Y"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Menu",
+        "action": "Repeat Last Action",
+        "key": "Shift + R"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Menu",
+        "action": "Menu Search",
+        "key": "F3"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Menu",
+        "action": "Rename",
+        "key": "F2"
+    },
+    {
+        "software": "Blender",
+        "category": "Render Menu",
+        "action": "Render Image",
+        "key": "F12"
+    },
+    {
+        "software": "Blender",
+        "category": "Render Menu",
+        "action": "Render Animation",
+        "key": "Ctrl + F12"
+    },
+    {
+        "software": "Blender",
+        "category": "Render Menu",
+        "action": "View Image",
+        "key": "F11"
+    },
+    {
+        "software": "Blender",
+        "category": "Render Menu",
+        "action": "View Animation",
+        "key": "Ctrl + F11"
+    },
+    {
+        "software": "Blender",
+        "category": "Window Menu",
+        "action": "Next Workspace",
+        "key": "Ctrl + Page Down"
+    },
+    {
+        "software": "Blender",
+        "category": "Window Menu",
+        "action": "Previous Workspace",
+        "key": "Ctrl + Page Up"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Move (or Grab) Object",
+        "key": "G"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Rotate Object",
+        "key": "R"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Scale Object",
+        "key": "S"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Open the Add Menu",
+        "key": "Shift + A"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Rotate View",
+        "key": "Middle Mouse Button Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Pan View",
+        "key": "Shift + Middle Mouse Button"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Zoom View",
+        "key": "Mouse Scroll Wheel"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Duplicate",
+        "key": "Shift + D"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Switch Between Edit Mode and Object Mode",
+        "key": "Tab"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Extrude",
+        "key": "E"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Fill",
+        "key": "F"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Bevel",
+        "key": "Ctrl + B"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Loop Cut and Slide",
+        "key": "Ctrl + R"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Select Linked Vertices",
+        "key": "L"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Deselect Linked Vertices",
+        "key": "Shift + L"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Unwrap Mesh",
+        "key": "U"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Enable Proportional Editing",
+        "key": "O"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Copy single value",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Paste single value",
+        "key": "Ctrl + V"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Copy entire vector or color",
+        "key": "Ctrl + Alt + C"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Paste entire vector or color",
+        "key": "Ctrl + Alt + V"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Open context menu",
+        "key": "RMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Reset value to default",
+        "key": "Backspace"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Invert value sign",
+        "key": "Minus"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Change value incrementally",
+        "key": "Ctrl + Wheel"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Activate menus / toggle checkboxes",
+        "key": "Return"
+    },
+    {
+        "software": "Blender",
+        "category": "Hovering (Properties)",
+        "action": "Apply change to all selected items",
+        "key": "Alt + Edit Value"
+    },
+    {
+        "software": "Blender",
+        "category": "Dragging",
+        "action": "Snap to coarse increments",
+        "key": "Ctrl + Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "Dragging",
+        "action": "Change value more slowly (precision)",
+        "key": "Shift + Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "Dragging",
+        "action": "Snap to fine increments",
+        "key": "Shift + Ctrl + Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Redo (Alternative)",
+        "key": "Shift + Ctrl + Z"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Help (Context sensitive)",
+        "key": "F1"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "File context menu",
+        "key": "F4"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Adjust Last Operation",
+        "key": "F9"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Quick access (favorites)",
+        "key": "Q"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Toggle Maximize Area",
+        "key": "Ctrl + Spacebar"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Playback animation (reverse)",
+        "key": "Shift + Ctrl + Spacebar"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editing Keys",
+        "action": "Delete with confirmation dialog",
+        "key": "X"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editing Keys",
+        "action": "Delete without confirmation dialog",
+        "key": "Delete"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editor Keys",
+        "action": "Select all",
+        "key": "A"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editor Keys",
+        "action": "Select none",
+        "key": "Alt + A / Double-tap A"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editor Keys",
+        "action": "Invert selection",
+        "key": "Ctrl + I"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editor Keys",
+        "action": "Hide selected items",
+        "key": "H"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editor Keys",
+        "action": "Hide unselected items",
+        "key": "Shift + H"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editor Keys",
+        "action": "Reveal hidden items",
+        "key": "Alt + H"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editor Keys",
+        "action": "Toggle Toolbar",
+        "key": "T"
+    },
+    {
+        "software": "Blender",
+        "category": "Common Editor Keys",
+        "action": "Toggle Sidebar",
+        "key": "N"
+    },
+    {
+        "software": "Blender",
+        "category": "3D Viewport Keys",
+        "action": "Zoom View (Alternative)",
+        "key": "Ctrl + MMB"
+    },
+    {
+        "software": "Blender",
+        "category": "3D Viewport Keys",
+        "action": "Toggle Pose mode / Mode pie menu",
+        "key": "Ctrl + Tab"
+    },
+    {
+        "software": "Blender",
+        "category": "3D Viewport Keys",
+        "action": "Switch Vertex/Edge/Face modes",
+        "key": "1 / 2 / 3"
+    },
+    {
+        "software": "Blender",
+        "category": "3D Viewport Keys",
+        "action": "Show 3D Viewport navigation pie menu",
+        "key": "~ (AccentGrave)"
+    },
+    {
+        "software": "Blender",
+        "category": "3D Viewport Keys",
+        "action": "Toggle gizmos",
+        "key": "Ctrl + ~"
+    },
+    {
+        "software": "Blender",
+        "category": "3D Viewport Keys",
+        "action": "Start Fly/Walk Navigation",
+        "key": "Shift + ~"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Insert a keyframe",
+        "key": "I"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Clear the keyframe",
+        "key": "Alt + I"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Clear all keyframes",
+        "key": "Shift + Alt + I"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Assign a driver",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Clear the driver",
+        "key": "Ctrl + Alt + D"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Add property to current keying set",
+        "key": "K"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Remove property from current keying set",
+        "key": "Alt + K"
+    },
+    {
+        "software": "Blender",
+        "category": "Python Scripting",
+        "action": "Copy Python command (Hover over operator)",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "Blender",
+        "category": "Python Scripting",
+        "action": "Copy relative data path (Hover over field)",
+        "key": "Shift + Ctrl + C"
+    },
+    {
+        "software": "Blender",
+        "category": "Python Scripting",
+        "action": "Copy full data path (Hover over field)",
+        "key": "Shift + Ctrl + Alt + C"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Select",
+        "key": "LMB (or RMB)"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Animation Playback",
+        "key": "Spacebar"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Join Objects",
+        "key": "Ctrl + J"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Jump to Object on Hover",
+        "key": "Alt + Q"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Open Preferences",
+        "key": "Ctrl + ,"
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Local View",
+        "key": "/"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Front View",
+        "key": "Numpad 1"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Right View",
+        "key": "Numpad 3"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Bottom View",
+        "key": "Ctrl + Numpad 7"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Back View",
+        "key": "Ctrl + Numpad 1"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Left View",
+        "key": "Ctrl + Numpad 3"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Top View",
+        "key": "Numpad 7"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Show Overlays",
+        "key": "Alt + Shift + Z"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Toggle Clipping Border",
+        "key": "Alt + B"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Toggle Quad View",
+        "key": "Ctrl + Alt + Q"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Center Selected",
+        "key": "Numpad ."
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Toggle Focus Mode",
+        "key": "Ctrl + Alt + Space"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Toggle X-Ray View",
+        "key": "Alt + Z"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Toggle Wireframe View",
+        "key": "Shift + Z"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Shading Pie Menu",
+        "key": "Z"
+    },
+    {
+        "software": "Blender",
+        "category": "Navigation",
+        "action": "Relative View Axis Switching",
+        "key": "Alt + MMB Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Move along global axis",
+        "key": "G + X/Y/Z"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Move along local axis",
+        "key": "G + XX/YY/ZZ"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Scale along global axis",
+        "key": "S + X/Y/Z"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Scale along local axis",
+        "key": "S + XX/YY/ZZ"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Rotate along global axis",
+        "key": "R + X/Y/Z"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Rotate along local axis",
+        "key": "R + XX/YY/ZZ"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Free Rotate",
+        "key": "R + R"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Transform with locked Axis",
+        "key": "G/R/S + MMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Duplicate Linked",
+        "key": "Alt + D"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Apply Transform",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Reset Position",
+        "key": "Alt + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Reset Rotation",
+        "key": "Alt + R"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Reset Scale",
+        "key": "Alt + S"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Snapping Toggle",
+        "key": "Shift + Tab"
+    },
+    {
+        "software": "Blender",
+        "category": "Transform",
+        "action": "Set Snap Base",
+        "key": "B"
+    },
+    {
+        "software": "Blender",
+        "category": "Selection",
+        "action": "Select Grouped",
+        "key": "Shift + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Selection",
+        "action": "Border Select",
+        "key": "B or Drag LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Selection",
+        "action": "Circle Select",
+        "key": "C"
+    },
+    {
+        "software": "Blender",
+        "category": "Selection",
+        "action": "Select Linked (Object)",
+        "key": "Shift + L"
+    },
+    {
+        "software": "Blender",
+        "category": "Selection",
+        "action": "Pick from Overlapping",
+        "key": "Alt + LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Menus",
+        "action": "Object Context Menu",
+        "key": "RMB or W"
+    },
+    {
+        "software": "Blender",
+        "category": "Menus",
+        "action": "Snapping Pie Menu",
+        "key": "Shift + S"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "3D Viewport",
+        "key": "Shift + F5"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Image/UV Editor",
+        "key": "Shift + F10"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Shader Editor",
+        "key": "Shift + F3"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Video Sequencer",
+        "key": "Shift + F8"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Movie Clip Editor",
+        "key": "Shift + F2"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Dope Sheet/Timeline",
+        "key": "Shift + F12"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Graph Editor/Drivers",
+        "key": "Shift + F6"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Text Editor",
+        "key": "Shift + F11"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Python Console",
+        "key": "Shift + F4"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Outliner",
+        "key": "Shift + F9"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "Properties",
+        "key": "Shift + F7"
+    },
+    {
+        "software": "Blender",
+        "category": "Editors",
+        "action": "File Browser",
+        "key": "Shift + F1"
+    },
+    {
+        "software": "Blender",
+        "category": "Relationships",
+        "action": "Set Parent",
+        "key": "Ctrl + P"
+    },
+    {
+        "software": "Blender",
+        "category": "Relationships",
+        "action": "Clear Parent",
+        "key": "Alt + P"
+    },
+    {
+        "software": "Blender",
+        "category": "Relationships",
+        "action": "Link/Transfer Data",
+        "key": "Ctrl + L"
+    },
+    {
+        "software": "Blender",
+        "category": "Camera",
+        "action": "Camera View",
+        "key": "Numpad 0"
+    },
+    {
+        "software": "Blender",
+        "category": "Camera",
+        "action": "Align Camera to View",
+        "key": "Ctrl + Alt + Numpad 0"
+    },
+    {
+        "software": "Blender",
+        "category": "Camera",
+        "action": "Set Active Object as Camera",
+        "key": "Ctrl + Numpad 0"
+    },
+    {
+        "software": "Blender",
+        "category": "File Menu",
+        "action": "Save Incremental",
+        "key": "Ctrl + Alt + S"
+    },
+    {
+        "software": "Blender",
+        "category": "Rendering",
+        "action": "Set Render Region",
+        "key": "Ctrl + B"
+    },
+    {
+        "software": "Blender",
+        "category": "Rendering",
+        "action": "Reset Render Region",
+        "key": "Ctrl + Alt + B"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Select Edge/Face Loop",
+        "key": "Alt + LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Select Edge Ring",
+        "key": "Ctrl + Alt + LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Slide Edge Selection",
+        "key": "G + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Select Mirror",
+        "key": "Ctrl + Shift + M"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Grow/Shrink Selection",
+        "key": "Ctrl + + / -"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Shortest Path Selection",
+        "key": "Ctrl + LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Align Top View to active face",
+        "key": "Shift + Numpad 7"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Align Bottom View to act. face",
+        "key": "Shift + Ctrl + Numpad 7"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Align Front View to active face",
+        "key": "Shift + Numpad 1"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Align Back View to active face",
+        "key": "Shift + Ctrl + Numpad 1"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Align Right View to active face",
+        "key": "Shift + Numpad 3"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Align Left View to active face",
+        "key": "Shift + Ctrl + Numpad 3"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Knife Cut",
+        "key": "K"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Inset",
+        "key": "I"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Separate",
+        "key": "P"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Shrink/Fatten",
+        "key": "Alt + S"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Rip Fill",
+        "key": "Alt + V"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Split",
+        "key": "Y"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Rip",
+        "key": "V"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Triangulate",
+        "key": "Ctrl + T"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Merge Selected",
+        "key": "M"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Recalculate Normals",
+        "key": "Shift + N"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Split Menu",
+        "key": "Alt + M"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Connect Vertex Path",
+        "key": "J"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Extrude Menu",
+        "key": "Alt + E"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Vertex Menu",
+        "key": "Ctrl + V"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Edge Menu",
+        "key": "Ctrl + E"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Face Menu",
+        "key": "Ctrl + F"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Proportional Edit Connected",
+        "key": "Alt + O"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Prop. Edit Falloff Pie Menu",
+        "key": "Shift + O"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Prop. Edit Radius Size",
+        "key": "Page Up/Down or Scroll"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Assign to Vertex Group",
+        "key": "Ctrl + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Edit Mode",
+        "action": "Remove from Vertex Group",
+        "key": "Ctrl + Alt + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Brush Size",
+        "key": "F"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Brush Strength",
+        "key": "Shift + F"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Brush Angle",
+        "key": "Ctrl + F"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Switch Sculpt Object",
+        "key": "Alt + Q (Hover)"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Set Transform Pivot Gizmo",
+        "key": "Shift + RMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Mask",
+        "key": "M"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Clear Mask",
+        "key": "Alt + M"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Expand Mask by Topology",
+        "key": "Shift + A"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Expand Mask by Curvature",
+        "key": "Shift + Alt + A"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Box Mask",
+        "key": "B"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Draw Brush",
+        "key": "V"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Grab Brush",
+        "key": "G"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Inflate Brush",
+        "key": "1"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Snake Hook Brush",
+        "key": "K"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Pinch/Magnify Brush",
+        "key": "P"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Smooth Brush",
+        "key": "S or Shift + Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Clay Strips Brush",
+        "key": "C"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Crease Polish Brush",
+        "key": "Shift + C"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Scrape/Fill Brush",
+        "key": "Shift + T"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Brush Assets Search",
+        "key": "Shift + Space"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Remesh",
+        "key": "Ctrl + R"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Incr./Decr. Multires Levels",
+        "key": "Alt + 1 / 2"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Remesh Preview",
+        "key": "R"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Face Sets Pie Menu",
+        "key": "Alt + W"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Grow/Shrink Face Set",
+        "key": "Ctrl + W / Ctrl + Alt + W"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Hide Active Face Set",
+        "key": "H"
+    },
+    {
+        "software": "Blender",
+        "category": "Sculpting",
+        "action": "Hide Inactive Face Sets",
+        "key": "Shift + H"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Group",
+        "key": "Ctrl + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Ungroup",
+        "key": "Ctrl + Alt + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Edit Group Toggle",
+        "key": "Tab"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Join in New Frame",
+        "key": "F"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Move in/out of Frame",
+        "key": "LMB Drag + F"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Cut Links",
+        "key": "Ctrl + RMB Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Mute/Unmute Links",
+        "key": "Ctrl + Alt + RMB Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Delete with Reconnect",
+        "key": "Ctrl + X"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Insert Reroute",
+        "key": "Shift + RMB Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Hide Unused Sockets",
+        "key": "Ctrl + H"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Minimize Node",
+        "key": "H"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Mute Node",
+        "key": "M"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Skip Auto Node Attachment",
+        "key": "Alt"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Frame All",
+        "key": "Home"
+    },
+    {
+        "software": "Blender",
+        "category": "Nodes",
+        "action": "Zoom to selection box",
+        "key": "Shift + B + Box Select"
+    },
+    {
+        "software": "Blender",
+        "category": "Compositing",
+        "action": "Backdrop Image Move",
+        "key": "Alt + MMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Compositing",
+        "action": "Backdrop Image Zoom in",
+        "key": "Alt + V"
+    },
+    {
+        "software": "Blender",
+        "category": "Compositing",
+        "action": "Backdrop Image Zoom out",
+        "key": "V"
+    },
+    {
+        "software": "Blender",
+        "category": "Image Editor",
+        "action": "New Image",
+        "key": "Alt + N"
+    },
+    {
+        "software": "Blender",
+        "category": "Image Editor",
+        "action": "Open Image",
+        "key": "Alt + O"
+    },
+    {
+        "software": "Blender",
+        "category": "Image Editor",
+        "action": "Save Image",
+        "key": "Alt + S"
+    },
+    {
+        "software": "Blender",
+        "category": "Image Editor",
+        "action": "Save Image As",
+        "key": "Shift + Alt + S"
+    },
+    {
+        "software": "Blender",
+        "category": "UV Editor",
+        "action": "Mark Seam",
+        "key": "Ctrl + E"
+    },
+    {
+        "software": "Blender",
+        "category": "UV Editor",
+        "action": "Select Split",
+        "key": "Y"
+    },
+    {
+        "software": "Blender",
+        "category": "UV Editor",
+        "action": "Grow/Shrink Selection",
+        "key": "Ctrl + + / -"
+    },
+    {
+        "software": "Blender",
+        "category": "UV Editor",
+        "action": "Stitch",
+        "key": "Alt + V"
+    },
+    {
+        "software": "Blender",
+        "category": "UV Editor",
+        "action": "Pin",
+        "key": "P"
+    },
+    {
+        "software": "Blender",
+        "category": "UV Editor",
+        "action": "Unpin",
+        "key": "Alt + P"
+    },
+    {
+        "software": "Blender",
+        "category": "UV Editor",
+        "action": "Align Menu",
+        "key": "Shift + W"
+    },
+    {
+        "software": "Blender",
+        "category": "Painting",
+        "action": "Stroke Method",
+        "key": "Alt + E"
+    },
+    {
+        "software": "Blender",
+        "category": "Painting",
+        "action": "Brush Colors Flip",
+        "key": "X"
+    },
+    {
+        "software": "Blender",
+        "category": "Painting",
+        "action": "Sample Color",
+        "key": "Shift + X"
+    },
+    {
+        "software": "Blender",
+        "category": "Painting",
+        "action": "Select Faces for Face Mask",
+        "key": "Alt + LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Painting",
+        "action": "Expand Face Mask Selection",
+        "key": "Alt + Shift + LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Painting",
+        "action": "Invert Brush",
+        "key": "Ctrl + Drag"
+    },
+    {
+        "software": "Blender",
+        "category": "Painting",
+        "action": "Set Vertex Colors",
+        "key": "Ctrl + X"
+    },
+    {
+        "software": "Blender",
+        "category": "Weight Painting",
+        "action": "Set Weight",
+        "key": "Ctrl + X"
+    },
+    {
+        "software": "Blender",
+        "category": "Weight Painting",
+        "action": "Gradient",
+        "key": "Shift + A"
+    },
+    {
+        "software": "Blender",
+        "category": "Weight Painting",
+        "action": "Radial Gradient",
+        "key": "Shift + Alt + A"
+    },
+    {
+        "software": "Blender",
+        "category": "Weight Painting",
+        "action": "Select Linked under Cursor",
+        "key": "L"
+    },
+    {
+        "software": "Blender",
+        "category": "Weight Painting",
+        "action": "Select Bones",
+        "key": "Ctrl + Shift + LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Insert Keyframe Menu",
+        "key": "K"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "List of Bones under Cursor",
+        "key": "Alt + LMB/RMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Set Preview Range",
+        "key": "P + Drag LMB"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Clear Preview Range",
+        "key": "Alt + P"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Next/Previous Frame",
+        "key": "Left/Right Arrow"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Jump to first/last frame",
+        "key": "Shift + Left/Right Arrow"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Toggle Frames/Seconds",
+        "key": "Ctrl + T"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Mirror Keyframes",
+        "key": "Ctrl + M"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Bake Keyframes",
+        "key": "Shift + Alt + O"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Select More/Less",
+        "key": "Ctrl + + / -"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Jump to Keyframes",
+        "key": "Ctrl + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Set Keyframe Handle Type",
+        "key": "V"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Set Keyframe Interpolation",
+        "key": "T"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Set F-Curve Extrapolation",
+        "key": "Shift + E"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Add Time Marker",
+        "key": "M"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Rename Marker",
+        "key": "F2"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Find Channels",
+        "key": "Ctrl + F"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "View Selected",
+        "key": "Numpad ."
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Add F-Curve Modifier",
+        "key": "Shift + Ctrl + M"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Hide Channels",
+        "key": "H"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Unhide Channels",
+        "key": "Alt + H"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Blend Curve",
+        "key": "Alt + D"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Toggle Channel Setting",
+        "key": "Shift + W"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Set Keyframe Easing Type",
+        "key": "Ctrl + E"
+    },
+    {
+        "software": "Blender",
+        "category": "Animation",
+        "action": "Smooth Curve",
+        "key": "Alt + S"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Add Action Strip",
+        "key": "Shift + A"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Add Transition",
+        "key": "Shift + T"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Add Sound Clip",
+        "key": "Shift + K"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Add Meta-Strips",
+        "key": "Ctrl + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Remove Meta-Strips",
+        "key": "Ctrl + Alt + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Split Strips",
+        "key": "Y"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Toggle Muting",
+        "key": "H"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Swap Strips",
+        "key": "Alt + F"
+    },
+    {
+        "software": "Blender",
+        "category": "Nonlinear Animation",
+        "action": "Move Strips Up/Down",
+        "key": "Page Up/Down"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Cut Strips",
+        "key": "K"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Mute Strips",
+        "key": "H"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Unmute Strips",
+        "key": "Alt + H"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Toggle Meta-Strip",
+        "key": "Tab"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Make Meta-Strip",
+        "key": "Ctrl + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "UnMeta-Strip",
+        "key": "Ctrl + Alt + G"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Connect Strips",
+        "key": "Ctrl + Alt + C"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "View Frame",
+        "key": "Numpad 0"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Snap Strips to Frame",
+        "key": "Shift + S"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Slip Strip Contents",
+        "key": "S"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Remove Gaps",
+        "key": "Backspace"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Remove Gaps (All)",
+        "key": "Shift + Backspace"
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Select Left Side of Frame",
+        "key": "["
+    },
+    {
+        "software": "Blender",
+        "category": "Video Sequencer",
+        "action": "Select Right Side of Frame",
+        "key": "]"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Brush Assets Search",
+        "key": "Shift + Space"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Adjust stroke extension",
+        "key": "Mousewheel"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Change Active Layer",
+        "key": "Y"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Select Box",
+        "key": "B"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Select Circle",
+        "key": "C"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Point Selection",
+        "key": "1"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Stroke Selection",
+        "key": "2"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Stroke Section Selection",
+        "key": "3"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Auto-Masking Pie Menu",
+        "key": "Shift + Alt + A"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Radius",
+        "key": "Alt + S"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Bend",
+        "key": "Shift + W"
+    },
+    {
+        "software": "Blender",
+        "category": "Grease Pencil",
+        "action": "Tools Menu",
+        "key": "Shift + Space"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "New Collection",
+        "key": "C"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Delete Collection",
+        "key": "X"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Move to Collection",
+        "key": "M"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Link to Collection",
+        "key": "Shift + M"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Parent Objects",
+        "key": "Shift + Drag/Drop"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Next Folder",
+        "key": "Alt + Right Arrow"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Previous Folder",
+        "key": "Alt + Left Arrow"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Parent File",
+        "key": "Alt + Up Arrow"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Create New Directory",
+        "key": "I"
+    },
+    {
+        "software": "Blender",
+        "category": "Organisation",
+        "action": "Add Bookmark",
+        "key": "Ctrl + B"
     }
 ]
