@@ -1,0 +1,786 @@
+[
+    {
+        "software": "Unreal Engine",
+        "category": "General",
+        "action": "Play in Editor",
+        "key": "Alt + P",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Add Branch Node",
+        "key": "B + LClick",
+        "common": true
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Blade Tool",
+        "key": "B",
+        "common": true
+    },
+    {
+        "software": "Blender",
+        "category": "General",
+        "action": "Add Object Menu",
+        "key": "Shift + A",
+        "common": true
+    },
+    {
+        "software": "Maya",
+        "category": "General",
+        "action": "Select Tool",
+        "key": "Q",
+        "common": true
+    },
+    {
+        "software": "Affinity",
+        "category": "Tools",
+        "action": "Move Tool",
+        "key": "V",
+        "common": true
+    },
+    {
+        "software": "Houdini",
+        "category": "Network",
+        "action": "Node Search Menu",
+        "key": "Tab",
+        "common": true
+    },
+    {
+        "software": "Nuke",
+        "category": "Nodes",
+        "action": "Search Nodes",
+        "key": "Tab",
+        "common": true
+    },
+    {
+        "software": "PowerToys",
+        "category": "Utilities",
+        "action": "PowerToys Run (Search)",
+        "key": "Alt + Space",
+        "common": true
+    },
+    {
+        "software": "Windows OS",
+        "category": "Productivity",
+        "action": "Clipboard History",
+        "key": "Win + V",
+        "common": true
+    },
+    {
+        "software": "ShareX",
+        "category": "Capture",
+        "action": "Capture Region",
+        "key": "Ctrl + PrintScreen",
+        "common": true
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Playback",
+        "action": "Play / Pause",
+        "key": "Space",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Navigation",
+        "action": "Search project",
+        "key": "Ctrl + P",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Navigation",
+        "action": "Highlight asset in Content Browser",
+        "key": "Ctrl + B",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Navigation",
+        "action": "Open asset editor",
+        "key": "Ctrl + E",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Navigation",
+        "action": "Open reference viewer",
+        "key": "Alt + Shift + R",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Navigation",
+        "action": "Jump to next tab",
+        "key": "Ctrl + Tab",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Navigation",
+        "action": "Jump to previous tab",
+        "key": "Ctrl + Shift + Tab",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Navigation",
+        "action": "Find in all blueprints",
+        "key": "Ctrl + Shift + F",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Compile blueprint",
+        "key": "F7",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Save all",
+        "key": "Ctrl + Shift + S",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Copy value",
+        "key": "Shift + RMB",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Paste value",
+        "key": "Shift + LMB",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Straighten node wires",
+        "key": "Q",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Align nodes",
+        "key": "Shift + W/A/S/D",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Blueprints",
+        "action": "Add comment",
+        "key": "C",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Save bookmark",
+        "key": "Ctrl + 1/2/3...",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Go to bookmark",
+        "key": "1/2/3...",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Focus on actor",
+        "key": "F",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Move Camera",
+        "key": "RMB + W/A/S/D/Q/E",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Zoom in/out",
+        "key": "RMB + C/Z",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Camera speed up/down",
+        "key": "Scroll (While Moving)",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Game view (hide outlines)",
+        "key": "G",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Toggle transparent selection",
+        "key": "T",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Hide selected actor",
+        "key": "H",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Reset selected particle system",
+        "key": "/",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Reset all particle systems",
+        "key": "Shift + /",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Rotate directional light",
+        "key": "Ctrl + L + Drag",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Sidebar all panels",
+        "key": "F10",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Fullscreen",
+        "key": "F11",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Toggle FPS counter",
+        "key": "Ctrl + Shift + H",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Toggle on-screen messages",
+        "key": "Shift + L",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Open asset auditor",
+        "key": "Alt + Shift + A",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Select all actors using same static mesh",
+        "key": "Shift + E",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Editor Viewport",
+        "action": "Select all actors of same class",
+        "key": "Ctrl + Shift + A",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Translation / Rotation / Scale gizmo",
+        "key": "W / E / R",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Decrease grid size",
+        "key": "[",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Increase grid size",
+        "key": "]",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Decrease rotation snap size",
+        "key": "Shift + [",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Increase rotation snap size",
+        "key": "Shift + ]",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Snap to grid",
+        "key": "Ctrl + End",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Group actors",
+        "key": "Ctrl + G",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Ungroup actors",
+        "key": "Shift + G",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Snap to ground",
+        "key": "End",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Snap to ground (using bottom center)",
+        "key": "Shift + End",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Snap to ground (using actor pivot)",
+        "key": "Alt + End",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Set pivot (temporarily)",
+        "key": "Alt + MMB",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Snap actor pivot to vertices in scene",
+        "key": "V + Drag",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Manipulating Objects",
+        "action": "Set pivot to vertices in scene",
+        "key": "Alt + V + MMB Drag",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "General",
+        "action": "Open File",
+        "key": "F1",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "General",
+        "action": "Rename",
+        "key": "F2",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "General",
+        "action": "Actor Details",
+        "key": "F4",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "General",
+        "action": "Possess",
+        "key": "F8",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "General",
+        "action": "Shot Break",
+        "key": "F9",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Camera/Transformation",
+        "action": "Perspective View",
+        "key": "Alt + G",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Camera/Transformation",
+        "action": "Front View",
+        "key": "Alt + H",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Camera/Transformation",
+        "action": "Top View",
+        "key": "Alt + J",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Camera/Transformation",
+        "action": "Side View",
+        "key": "Alt + K",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Camera/Transformation",
+        "action": "Toggle Move / Rotate / Scale",
+        "key": "Spacebar",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Context Menu",
+        "key": "Right Click",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Save All",
+        "key": "Ctrl + S",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Unhide All",
+        "key": "Ctrl + H",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Select all Adjacent Floor Surfaces",
+        "key": "Shift + U",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Select all Adjacent Slant Surfaces",
+        "key": "Shift + Y",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Select all Adjacent Surfaces",
+        "key": "Shift + J",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Select all Adjacent Wall Surfaces",
+        "key": "Shift + W",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Select all Coplanar Surfaces",
+        "key": "Shift + C",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Find in Blueprint",
+        "key": "Ctrl + K",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Show Navigation Mesh",
+        "key": "P",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Level Editing",
+        "action": "Duplicate and Transform",
+        "key": "Alt + Drag",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Copy",
+        "key": "Ctrl + C",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Cut",
+        "key": "Ctrl + X",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Paste",
+        "key": "Ctrl + V",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Delete",
+        "key": "Delete",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Undo",
+        "key": "Ctrl + Z",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Redo",
+        "key": "Ctrl + Y",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Select All",
+        "key": "Ctrl + A",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Clear Selection",
+        "key": "Esc",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Move Selection",
+        "key": "Arrow Keys",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Open Level",
+        "key": "Ctrl + O",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Play / Simulate",
+        "key": "Alt + P / Alt + S",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Basic Editing",
+        "action": "Find within Blueprint",
+        "key": "Ctrl + F",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "1 variable constant",
+        "key": "1 + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "2 variable constant",
+        "key": "2 + LClick",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "3 variable constant",
+        "key": "3 + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "4 variable constant",
+        "key": "4 + LClick",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Power node",
+        "key": "E + LClick",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Reflection Vector",
+        "key": "R + LClick",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Texture Sample",
+        "key": "T + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "TexCoord",
+        "key": "U + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "If node",
+        "key": "I + LClick",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "1-x (One Minus) node",
+        "key": "O + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Panner node",
+        "key": "P + LClick",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Add node",
+        "key": "A + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Param 'None' (0) node",
+        "key": "S + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Divide node",
+        "key": "D + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Lerp node",
+        "key": "L + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Mask (R G) node",
+        "key": "C + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Vector Param 'None' (0,1,2,3)",
+        "key": "V + LClick",
+        "common": true
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "BumpOffset node",
+        "key": "B + LClick",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Normalize node",
+        "key": "N + LClick",
+        "common": false
+    },
+    {
+        "software": "Unreal Engine",
+        "category": "Material Editor",
+        "action": "Multiply node",
+        "key": "M + LClick",
+        "common": true
+    }
+]
