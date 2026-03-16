@@ -123,15 +123,20 @@
                 Loading...
             </h2>
             
-            <div class="relative w-48 md:w-80 flex items-center">
-                <i data-lucide="search" class="absolute left-3 text-notion-muted w-4 h-4"></i>
-                <input type="text" id="search-bar" placeholder="Search..." 
-                    class="w-full bg-transparent border border-transparent text-notion-text text-sm py-1.5 pl-9 pr-3 hover:bg-notion-hover focus:bg-notion-hover transition-colors placeholder-notion-muted">
+            <div class="flex items-center gap-2">
+                <div class="relative w-40 md:w-72 flex items-center">
+                    <i data-lucide="search" class="absolute left-3 text-notion-muted w-4 h-4"></i>
+                    <input type="text" id="search-bar" placeholder="Search..." 
+                        class="w-full bg-transparent border border-transparent text-notion-text text-sm py-1.5 pl-9 pr-3 hover:bg-notion-hover focus:bg-notion-hover transition-colors placeholder-notion-muted">
+                </div>
+                <button id="filter-toggle-btn" class="hidden p-1.5 text-notion-muted hover:bg-notion-hover hover:text-notion-text rounded transition-colors" title="Toggle Filters">
+                    <i data-lucide="filter" class="w-4 h-4"></i>
+                </button>
             </div>
         </header>
 
-        <!-- Category Filter Bar -->
-        <div id="category-bar" class="flex items-center overflow-x-auto no-scrollbar py-2 px-4 md:px-6 border-b border-notion-border bg-notion-main gap-2 flex-shrink-0 hidden">
+        <!-- Category Filter Bar (Compact) -->
+        <div id="category-bar" class="flex flex-wrap items-center py-2 px-4 md:px-6 border-b border-notion-border bg-notion-main gap-1.5 flex-shrink-0 hidden">
             <!-- Populated by JS -->
         </div>
 
@@ -171,6 +176,7 @@
         let selectedCategory = "All";
         let softwareList = [];
         let currentAvailableCategories = [];
+        let showCategoryFilters = false;
         
         let favorites = [];
         try {
@@ -222,6 +228,7 @@
         const toastMessageEl = document.getElementById('toast-message');
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const sidebarEl = document.getElementById('sidebar');
+        const filterToggleBtn = document.getElementById('filter-toggle-btn');
 
         // --- 3. HELPER FUNCTIONS ---
         function getUniqueId(item) {
@@ -306,17 +313,28 @@
 
         function renderCategoryBar() {
             categoryBarEl.innerHTML = '';
+            
             if (currentAvailableCategories.length <= 1) {
+                filterToggleBtn.classList.add('hidden');
                 categoryBarEl.classList.add('hidden');
                 categoryBarEl.classList.remove('flex');
                 return;
             }
+            
+            filterToggleBtn.classList.remove('hidden');
+
+            if (!showCategoryFilters) {
+                categoryBarEl.classList.add('hidden');
+                categoryBarEl.classList.remove('flex');
+                return;
+            }
+
             categoryBarEl.classList.remove('hidden');
             categoryBarEl.classList.add('flex');
 
             const allBtn = document.createElement('button');
             const isAll = selectedCategory === 'All';
-            allBtn.className = `px-3 py-1 text-sm rounded transition-colors whitespace-nowrap ${isAll ? 'bg-notion-border text-notion-text border border-notion-keyborder' : 'text-notion-muted hover:bg-notion-hover hover:text-notion-text border border-transparent'}`;
+            allBtn.className = `px-2.5 py-1 text-xs rounded transition-colors ${isAll ? 'bg-notion-border text-notion-text border border-notion-keyborder' : 'text-notion-muted hover:bg-notion-hover hover:text-notion-text border border-transparent'}`;
             allBtn.innerText = 'All Categories';
             allBtn.onclick = () => { selectedCategory = 'All'; renderCategoryBar(); renderContent(); };
             categoryBarEl.appendChild(allBtn);
@@ -324,7 +342,7 @@
             currentAvailableCategories.forEach(cat => {
                 const btn = document.createElement('button');
                 const isCat = selectedCategory === cat;
-                btn.className = `px-3 py-1 text-sm rounded transition-colors whitespace-nowrap ${isCat ? 'bg-notion-border text-notion-text border border-notion-keyborder' : 'text-notion-muted hover:bg-notion-hover hover:text-notion-text border border-transparent'}`;
+                btn.className = `px-2.5 py-1 text-xs rounded transition-colors ${isCat ? 'bg-notion-border text-notion-text border border-notion-keyborder' : 'text-notion-muted hover:bg-notion-hover hover:text-notion-text border border-transparent'}`;
                 btn.innerText = cat;
                 btn.onclick = () => { selectedCategory = cat; renderCategoryBar(); renderContent(); };
                 categoryBarEl.appendChild(btn);
@@ -468,6 +486,20 @@
         searchInputEl.addEventListener('input', (e) => {
             searchQuery = e.target.value;
             renderContent();
+        });
+
+        filterToggleBtn.addEventListener('click', () => {
+            showCategoryFilters = !showCategoryFilters;
+            if (showCategoryFilters) {
+                filterToggleBtn.classList.add('bg-notion-hover', 'text-notion-text');
+                filterToggleBtn.classList.remove('text-notion-muted');
+            } else {
+                filterToggleBtn.classList.remove('bg-notion-hover', 'text-notion-text');
+                filterToggleBtn.classList.add('text-notion-muted');
+                selectedCategory = 'All'; // Reset filter when hiding
+                renderContent();
+            }
+            renderCategoryBar();
         });
 
         mobileMenuBtn.addEventListener('click', () => {
