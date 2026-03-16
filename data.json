@@ -55,21 +55,21 @@
     },
     {
         "software": "Windows OS",
-        "category": "Productivity",
-        "action": "Clipboard History",
-        "key": "Win + V"
+        "category": "Basics",
+        "action": "Select all items in a window",
+        "key": "Ctrl + A"
     },
     {
         "software": "ShareX",
-        "category": "Capture",
-        "action": "Capture Region",
-        "key": "Ctrl + PrintScreen"
+        "category": "Common",
+        "action": "Start region selection",
+        "key": "Hold left click / Insert"
     },
     {
         "software": "PotPlayer",
-        "category": "Playback",
-        "action": "Play / Pause",
-        "key": "Space"
+        "category": "Function Key Shortcuts",
+        "action": "About PotPlayer",
+        "key": "F1"
     },
     {
         "software": "Unreal Engine",
@@ -8956,5 +8956,1295 @@
         "category": "General",
         "action": "Open editor",
         "key": "Win + Ctrl + `"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Copy selected or highlighted item",
+        "key": "Ctrl + C / Ctrl + Insert"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Paste selected or highlighted item",
+        "key": "Ctrl + V / Shift + Insert"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Cut selected or highlighted item",
+        "key": "Ctrl + X"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Undo previous action",
+        "key": "Ctrl + Z"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Redo action",
+        "key": "Ctrl + Y"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Open a new File Explorer window",
+        "key": "Ctrl + N"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Open \"how to get help in windows\" search",
+        "key": "Win + F1"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Close the current app or window",
+        "key": "Alt + F4"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Switch between open apps or windows",
+        "key": "Alt + Tab"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Basics",
+        "action": "Delete selected item permanently (skip Recycle Bin)",
+        "key": "Shift + Delete"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Start menu and taskbar",
+        "action": "Open Start menu",
+        "key": "Win / Ctrl + Esc"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Start menu and taskbar",
+        "action": "Open the secret Start menu",
+        "key": "Win + X"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Start menu and taskbar",
+        "action": "Cycle through the apps on the taskbar",
+        "key": "Win + T"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Start menu and taskbar",
+        "action": "Open the app pinned in the [number] position",
+        "key": "Win + [Number]"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Start menu and taskbar",
+        "action": "Open right-click menu for pinned app",
+        "key": "Win + Alt + [Number]"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Start menu and taskbar",
+        "action": "Show or hide desktop",
+        "key": "Win + D"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Screenshots",
+        "action": "Take a screenshot of your entire screen to clipboard",
+        "key": "PrtScn"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Screenshots",
+        "action": "Take a screenshot of your entire desktop to folder",
+        "key": "Win + PrtScn"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Screenshots",
+        "action": "Open Snipping Tool menu",
+        "key": "Win + Shift + S"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Emoji panel",
+        "action": "Bring up the emoji keyboard",
+        "key": "Win + ."
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Minimize all open windows",
+        "key": "Win + M"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Restore minimized windows",
+        "key": "Win + Shift + M"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Minimize all windows except active window",
+        "key": "Win + Home"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Maximize selected window",
+        "key": "Win + Up Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Maximizes active window vertically",
+        "key": "Win + Shift + Up Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Minimize selected window",
+        "key": "Win + Down Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Snap selected window to left half",
+        "key": "Win + Left Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Snap selected window to right half",
+        "key": "Win + Right Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Snap selected window to top half",
+        "key": "Win + Alt + Up Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Snap selected window to bottom half",
+        "key": "Win + Alt + Down Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Move selected window to left or right monitor",
+        "key": "Win + Shift + Left / Right Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Open Task view (virtual desktops)",
+        "key": "Win + Tab"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Add new virtual desktop",
+        "key": "Win + Ctrl + D"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Move to the next virtual desktop",
+        "key": "Win + Ctrl + Right Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Move to the previous virtual desktop",
+        "key": "Win + Ctrl + Left Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Snap Assist and virtual desktops",
+        "action": "Close current virtual desktop",
+        "key": "Win + Ctrl + F4"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open the Action Center",
+        "key": "Win + A"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open Cortana in text mode",
+        "key": "Win + S / Win + Q"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open Microsoft Copilot",
+        "key": "Win + C"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open File Explorer",
+        "key": "Win + E"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open the Windows Feedback Hub",
+        "key": "Win + F"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Search for PCs on a network",
+        "key": "Win + Ctrl + F"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open the Game bar",
+        "key": "Win + G"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open the Share sidebar",
+        "key": "Win + H"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open the Settings menu",
+        "key": "Win + I"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open the Connect sidebar",
+        "key": "Win + K"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Lock your computer",
+        "key": "Win + L"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Lock screen orientation",
+        "key": "Win + O"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open presentation or projection sidebar",
+        "key": "Win + P"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open the Run window",
+        "key": "Win + R"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open Ease of Access center",
+        "key": "Win + U"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Open the Windows Ink Workspace",
+        "key": "Win + W"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Zoom in and out with magnifier",
+        "key": "Win + (+) / (-)"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Windows key shortcuts",
+        "action": "Exit magnifier",
+        "key": "Win + Esc"
+    },
+    {
+        "software": "Windows OS",
+        "category": "F Keys",
+        "action": "Rename a selected item",
+        "key": "F2"
+    },
+    {
+        "software": "Windows OS",
+        "category": "F Keys",
+        "action": "Quickly search for files in File Explorer",
+        "key": "F3"
+    },
+    {
+        "software": "Windows OS",
+        "category": "F Keys",
+        "action": "Highlight the address bar in File Explorer",
+        "key": "F4"
+    },
+    {
+        "software": "Windows OS",
+        "category": "F Keys",
+        "action": "Refresh your active window",
+        "key": "F5"
+    },
+    {
+        "software": "Windows OS",
+        "category": "F Keys",
+        "action": "Cycle through elements in a window",
+        "key": "F6"
+    },
+    {
+        "software": "Windows OS",
+        "category": "F Keys",
+        "action": "Show login password on the start screen",
+        "key": "Alt + F8"
+    },
+    {
+        "software": "Windows OS",
+        "category": "F Keys",
+        "action": "Activate the menu bar in the active window",
+        "key": "F10"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Copy selected text to the clipboard",
+        "key": "Ctrl + C / Ctrl + Insert"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Paste copied text",
+        "key": "Ctrl + V / Shift + Insert"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Select all text on the current line",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Move screen one line up or down",
+        "key": "Ctrl + Up / Down Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Search Command Prompt via Find window",
+        "key": "Ctrl + F"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Enter Mark mode",
+        "key": "Ctrl + M"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Move cursor up or down one line and select text",
+        "key": "Shift + Up / Down Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Move cursor left or right one character and select text",
+        "key": "Shift + Left / Right Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Move cursor left or right one word and select text",
+        "key": "Ctrl + Shift + Left / Right Arrow"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Move cursor up or down one screen and select text",
+        "key": "Shift + Page Up / Page Down"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Move cursor to beginning or end of current line and select text",
+        "key": "Shift + Home / End"
+    },
+    {
+        "software": "Windows OS",
+        "category": "Command Prompt",
+        "action": "Move cursor to beginning or end of screen buffer and select text",
+        "key": "Ctrl + Shift + Home / End"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Delete current shape",
+        "key": "Delete"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Delete all shapes",
+        "key": "Shift + Delete"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Copy position and size info",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Paste image or text",
+        "key": "Ctrl + V"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Duplicate shape",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Undo",
+        "key": "Ctrl + Z"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Redo",
+        "key": "Ctrl + Y"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Move cursor / Move current shape",
+        "key": "Arrow keys"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Resize current shape from bottom-right corner",
+        "key": "Ctrl + Arrow keys"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Resize current shape from top-left corner",
+        "key": "Alt + Arrow keys"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Resize or move faster",
+        "key": "Shift + Arrow keys"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Move current shape to top",
+        "key": "Home"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Move current shape to bottom",
+        "key": "End"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Move current shape up",
+        "key": "Page up"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Move current shape down",
+        "key": "Page down"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Change magnifier size",
+        "key": "Mouse wheel"
+    },
+    {
+        "software": "ShareX",
+        "category": "Common",
+        "action": "Disable shape selection to draw on top of another shape",
+        "key": "Hold Ctrl"
+    },
+    {
+        "software": "ShareX",
+        "category": "While creating region",
+        "action": "Finish region selection",
+        "key": "Release left click / Insert"
+    },
+    {
+        "software": "ShareX",
+        "category": "While creating region",
+        "action": "Cancel region selection",
+        "key": "Right click / Delete"
+    },
+    {
+        "software": "ShareX",
+        "category": "While creating region",
+        "action": "Move shape",
+        "key": "Hold Ctrl"
+    },
+    {
+        "software": "ShareX",
+        "category": "While creating region",
+        "action": "Proportional resizing",
+        "key": "Hold Shift"
+    },
+    {
+        "software": "ShareX",
+        "category": "While creating region",
+        "action": "Snap selection to preset sizes",
+        "key": "Hold Alt"
+    },
+    {
+        "software": "ShareX",
+        "category": "When cursor is on top of a shape",
+        "action": "Select shape",
+        "key": "Left click / Insert"
+    },
+    {
+        "software": "ShareX",
+        "category": "When cursor is on top of a shape",
+        "action": "Move shape",
+        "key": "Hold left click"
+    },
+    {
+        "software": "ShareX",
+        "category": "When cursor is on top of a shape",
+        "action": "Delete shape",
+        "key": "Right click / Delete"
+    },
+    {
+        "software": "ShareX",
+        "category": "Region capture only",
+        "action": "Close region capture",
+        "key": "Esc / Right click"
+    },
+    {
+        "software": "ShareX",
+        "category": "Region capture only",
+        "action": "Switch between last region and last drawing tool",
+        "key": "Tab / Middle click"
+    },
+    {
+        "software": "ShareX",
+        "category": "Region capture only",
+        "action": "Fullscreen capture",
+        "key": "Space"
+    },
+    {
+        "software": "ShareX",
+        "category": "Region capture only",
+        "action": "Specific monitor capture",
+        "key": "1/2/3...0"
+    },
+    {
+        "software": "ShareX",
+        "category": "Region capture only",
+        "action": "Active monitor capture / Capture regions (multi-region mode)",
+        "key": "Double left click / Enter"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Pan image",
+        "key": "Hold middle click"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Zoom centered on cursor",
+        "key": "Ctrl + Mouse wheel"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Zoom in",
+        "key": "Ctrl + +"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Zoom out",
+        "key": "Ctrl + -"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Reset zoom",
+        "key": "Ctrl + 0"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Zoom to fit",
+        "key": "Ctrl + Alt + 0"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Close image editor and continue task with changes applied",
+        "key": "Enter"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Close image editor and continue task without applying changes",
+        "key": "Right click / Space"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Close image editor and cancel task",
+        "key": "Esc"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Save image",
+        "key": "Ctrl + S"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Save image as...",
+        "key": "Ctrl + Shift + S"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Copy image to clipboard",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Upload image",
+        "key": "Ctrl + U"
+    },
+    {
+        "software": "ShareX",
+        "category": "Image editor only",
+        "action": "Print image",
+        "key": "Ctrl + P"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Select and move",
+        "key": "M"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Rectangle",
+        "key": "R"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Ellipse",
+        "key": "E"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Freehand",
+        "key": "F"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Line",
+        "key": "L"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Arrow",
+        "key": "A"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Text (Outline)",
+        "key": "O"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Text (Background)",
+        "key": "T"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Speech balloon",
+        "key": "S"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Step tool",
+        "key": "Unassigned"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Blur",
+        "key": "B"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Pixelate",
+        "key": "P"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Highlight",
+        "key": "H"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Crop image",
+        "key": "C"
+    },
+    {
+        "software": "ShareX",
+        "category": "Tools",
+        "action": "Cut out",
+        "key": "X"
+    },
+    {
+        "software": "ShareX",
+        "category": "Pin to screen",
+        "action": "Move image",
+        "key": "Hold left click"
+    },
+    {
+        "software": "ShareX",
+        "category": "Pin to screen",
+        "action": "Close image",
+        "key": "Right click / Escape"
+    },
+    {
+        "software": "ShareX",
+        "category": "Pin to screen",
+        "action": "Reset image",
+        "key": "Middle click"
+    },
+    {
+        "software": "ShareX",
+        "category": "Pin to screen",
+        "action": "Minimize image",
+        "key": "Double click"
+    },
+    {
+        "software": "ShareX",
+        "category": "Pin to screen",
+        "action": "Change image scale",
+        "key": "Mouse wheel / + -"
+    },
+    {
+        "software": "ShareX",
+        "category": "Pin to screen",
+        "action": "Change image opacity",
+        "key": "Ctrl + Mouse wheel / Ctrl + + -"
+    },
+    {
+        "software": "ShareX",
+        "category": "Pin to screen",
+        "action": "Copy image",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Function Key Shortcuts",
+        "action": "Browse Folder",
+        "key": "F2"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Function Key Shortcuts",
+        "action": "Open",
+        "key": "F3"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Function Key Shortcuts",
+        "action": "Close",
+        "key": "F4"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Function Key Shortcuts",
+        "action": "Preference",
+        "key": "F5"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Function Key Shortcuts",
+        "action": "PlayList On/Off",
+        "key": "F6"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Function Key Shortcuts",
+        "action": "Equalizer Settings",
+        "key": "F7"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Function Key Shortcuts",
+        "action": "File Navigator",
+        "key": "F12"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Numeric Keyboard Shortcuts",
+        "action": "Screen Size: 0.5x",
+        "key": "1"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Numeric Keyboard Shortcuts",
+        "action": "Screen Size: 1x",
+        "key": "2"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Numeric Keyboard Shortcuts",
+        "action": "Screen Size: 1.5x",
+        "key": "3"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Numeric Keyboard Shortcuts",
+        "action": "Screen Size: 2x",
+        "key": "4"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Numeric Keyboard Shortcuts",
+        "action": "Screen Size: Maximum",
+        "key": "5"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Numeric Keyboard Shortcuts",
+        "action": "Screen Size: Maximum Size/Current Size",
+        "key": "6"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Numeric Keyboard Shortcuts",
+        "action": "Screen Size: Maximum Size",
+        "key": "7"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Numeric Keyboard Shortcuts",
+        "action": "Original Video Size",
+        "key": "9"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Play/Pause",
+        "key": "Spacebar"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Image Properties: Reset",
+        "key": "Q"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Speed Faster",
+        "key": "C"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Speed Slower",
+        "key": "X"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Brightness Decrease 1%",
+        "key": "W"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Brightness Increase 1%",
+        "key": "E"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Contrast Decrease 1%",
+        "key": "R"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Contrast Increase 1%",
+        "key": "T"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Saturation Decrease 1%",
+        "key": "Y"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Saturation Increase 1%",
+        "key": "U"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Color Decrease 1%",
+        "key": "I"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Color Increase 1%",
+        "key": "O"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Add Bookmark",
+        "key": "P"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Audio Stream Option",
+        "key": "A"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "PixelShader Option",
+        "key": "S"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Move Previous Frame",
+        "key": "D"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Move Next Frame",
+        "key": "F"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Move into Position",
+        "key": "G"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "View Bookmark",
+        "key": "H"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Video Aspect Ratio Option",
+        "key": "J"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Snapshot/Capture Option",
+        "key": "K"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Select Subtitle",
+        "key": "L"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "PreResize Pixel Shader On/Off",
+        "key": "Shift + P"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Filter Control Condition",
+        "key": "Ctrl + X"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Copy Snapshot to Clipboard",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Flip Input Picture On/Off",
+        "key": "Ctrl + V"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Blur On/Off",
+        "key": "Ctrl + B"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Denoise 3D On/Off",
+        "key": "Ctrl + N"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Temporary Denoise On/Off",
+        "key": "Ctrl + M"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Image Level Control On/Off",
+        "key": "Ctrl + 1"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Turn to Camera Device",
+        "key": "Ctrl + J"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Remove Color Blocks On/Off",
+        "key": "Ctrl + H"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Continuous Image Capture",
+        "key": "Ctrl + G"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Filter Settings",
+        "key": "Ctrl + F"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Play DVD",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Play Previous File",
+        "key": "PgUp"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Play Next File",
+        "key": "PgDn"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Volume Up",
+        "key": "Up Arrow"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Volume Down",
+        "key": "Down Arrow"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "5 Seconds Backward",
+        "key": "Left Arrow"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "5 Seconds Forward",
+        "key": "Right Arrow"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Move to Starting Point",
+        "key": "Backspace"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "AB Repeat Timing",
+        "key": "[ / ]"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "AB Repeat On/Off",
+        "key": "\\"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Audio Sync 0.05 Second Slower",
+        "key": "Shift + <"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Audio Sync 0.05 Second Faster",
+        "key": "Shift + >"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Fullscreen",
+        "key": "Enter"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Skip Playback on/off",
+        "key": "Shift + '"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Audio Recording",
+        "key": "Shift + G"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Noise On/Off",
+        "key": "Shift + D"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Scene Explorer",
+        "key": "Shift + S"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Audio Filter On/Off",
+        "key": "Shift + A"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Voice Processing Filter On/Off",
+        "key": "Shift + X"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Crystalization On/Off",
+        "key": "Shift + C"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Voice Filter On/Off",
+        "key": "Shift + V"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Normalized On/Off",
+        "key": "Shift + N"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Mirror Image On/Off",
+        "key": "Ctrl + Z"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Skip Setup",
+        "key": "Unassigned"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Subtitle Sync 0.5 Second Slower",
+        "key": "<"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Subtitle Sync 0.5 Second Faster",
+        "key": ">"
+    },
+    {
+        "software": "PotPlayer",
+        "category": "Standard",
+        "action": "Subtitle Sync Default",
+        "key": "/"
     }
 ]
