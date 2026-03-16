@@ -31,9 +31,9 @@
     },
     {
         "software": "Affinity",
-        "category": "Tools",
-        "action": "Move Tool",
-        "key": "V"
+        "category": "Workspace",
+        "action": "Vector Studio",
+        "key": "F2"
     },
     {
         "software": "Houdini",
@@ -4174,5 +4174,1643 @@
         "category": "Modeling Operations",
         "action": "Activate Multi-Cut Tool",
         "key": "Ctrl + Shift + X"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Pixel Studio",
+        "key": "F3"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Layout Studio",
+        "key": "F4"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Slice Studio",
+        "key": "F5"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Canva AI Studio",
+        "key": "F6"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Retouching Studio",
+        "key": "F7"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Color Grading Studio",
+        "key": "F8"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Typography Studio",
+        "key": "F9"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Develop Studio",
+        "key": "Ctrl + Shift + A"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Panorama Studio",
+        "key": "Ctrl + Alt + Shift + P"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "New Document",
+        "key": "Ctrl + N"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "New from Clipboard",
+        "key": "Ctrl + Alt + Shift + N"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Open/Import Document",
+        "key": "Ctrl + O"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Place",
+        "key": "Ctrl + Shift + M"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Close All Documents",
+        "key": "Ctrl + Alt + W"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Close Document / Close App",
+        "key": "Ctrl + W"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Next document / view cycle",
+        "key": "Ctrl + Tab"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Previous document / view cycle",
+        "key": "Shift + Ctrl + Tab"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Save",
+        "key": "Ctrl + S"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Save As",
+        "key": "Ctrl + Shift + S"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Export (to file or Canva)",
+        "key": "Ctrl + Alt + Shift + W"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Print",
+        "key": "Ctrl + P"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "App Settings",
+        "key": "Ctrl + ,"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Show/Hide Panels",
+        "key": "Ctrl + Shift + H"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Show / Hide Toolbar",
+        "key": "Ctrl + Alt + T"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Toggle UI",
+        "key": "Tab"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Preview Mode",
+        "key": "Ctrl + Shift + W"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Pixel view mode",
+        "key": "Ctrl + Alt + Y"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Pixel (Retina) view mode",
+        "key": "Ctrl + Alt + Shift + Y"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Last used wireframe mode",
+        "key": "Ctrl + Y"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Clip to Canvas",
+        "key": ","
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Hot key zoom",
+        "key": "Spacebar + Ctrl-drag"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom In (keyboard only)",
+        "key": "Ctrl + ="
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom In (keyboard + mouse/trackpad)",
+        "key": "Spacebar + Ctrl-click"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom In (by drawing a marquee)",
+        "key": "Spacebar + Alt-drag"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom Out (keyboard only)",
+        "key": "Ctrl + -"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom Out (keyboard + mouse/trackpad)",
+        "key": "Spacebar + Alt-click"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Hot key panning",
+        "key": "Spacebar-drag"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Scroll up/down",
+        "key": "Mouse scroll wheel"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Scroll left/right",
+        "key": "Shift + Mouse scroll wheel"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom to Fit",
+        "key": "Ctrl + 0"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom to Width",
+        "key": "Alt + Shift + 0"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom to Selection",
+        "key": "Ctrl + Alt + O"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom to Document",
+        "key": "Ctrl + Alt + Shift + 0"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom to 100%",
+        "key": "Ctrl + 1"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom to 200%",
+        "key": "Ctrl + 2"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom to 400%",
+        "key": "Ctrl + 3"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Zoom to 800%",
+        "key": "Ctrl + 4"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Actual Size",
+        "key": "Ctrl + 8"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Pixel Size",
+        "key": "Ctrl + 9"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Reset document view rotation",
+        "key": "Ctrl + Alt + Shift + R"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Toggle Snapping",
+        "key": ";"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Show/Hide Guides",
+        "key": "Ctrl + ;"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Show/Hide Grid",
+        "key": "Ctrl + '"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Grid Plane cycle",
+        "key": "'"
+    },
+    {
+        "software": "Affinity",
+        "category": "Workspace",
+        "action": "Show/Hide Rulers",
+        "key": "Ctrl + R"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Open Document Setup",
+        "key": "Ctrl + Shift + P"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Resize Document",
+        "key": "Ctrl + Alt + I"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Resize Canvas",
+        "key": "Alt + Ctrl + C"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Cut",
+        "key": "Ctrl + X"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Copy",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Copy Merged",
+        "key": "Ctrl + Shift + C"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Paste Style",
+        "key": "Ctrl + Shift + V"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Paste FX",
+        "key": "Alt + Shift + V"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Paste Inside",
+        "key": "Ctrl + Alt + V"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Paste without Format",
+        "key": "Ctrl + Alt + Shift + V"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Undo",
+        "key": "Ctrl + Z"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Redo",
+        "key": "Ctrl + Shift + Z"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Select multiple objects",
+        "key": "Shift-click"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Select overlapped object",
+        "key": "Alt-click"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Select All",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Deselect",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Select All Layers",
+        "key": "Ctrl + Alt + A"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Select Next Layer",
+        "key": "Ctrl + ]"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Select Previous Layer",
+        "key": "Ctrl + ["
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Select Parent Layer",
+        "key": "Ctrl + Up"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Cycle Selection Box",
+        "key": "."
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Set Selection Box",
+        "key": "Ctrl + ."
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Cancel operation",
+        "key": "Esc"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Nudge",
+        "key": "Arrow keys"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Nudge (by modified distance)",
+        "key": "Shift + Arrow keys"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Group",
+        "key": "Ctrl + G"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Ungroup",
+        "key": "Ctrl + Shift + G"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Duplicate Selection",
+        "key": "Ctrl + J"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Move to Front",
+        "key": "Ctrl + Shift + ]"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Move Forward One",
+        "key": "Ctrl + ]"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Send to Back",
+        "key": "Ctrl + Shift + ["
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Move Back One",
+        "key": "Ctrl + ["
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Move Inside",
+        "key": "Ctrl + Alt + G"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Move Outside",
+        "key": "Ctrl + Alt + Shift + G"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Show All",
+        "key": "Ctrl + Shift + L"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Unlock All",
+        "key": "Ctrl + Alt + Shift + L"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "New Container Layer",
+        "key": "Ctrl + Alt + L"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "New Pixel Layer",
+        "key": "Ctrl + Shift + N"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Rename Layer",
+        "key": "Ctrl + Shift + R"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Convert to Curves",
+        "key": "Ctrl + Return"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Create Clipping Mask",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Merge Down",
+        "key": "Ctrl + E"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Merge Selected",
+        "key": "Ctrl + Shift + E"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Merge Visible",
+        "key": "Ctrl + Alt + Shift + E"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Switch between Stroke/Fill",
+        "key": "X"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Swap Stroke/Fill",
+        "key": "Shift + X"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Set Stroke/Fill to black and white",
+        "key": "D"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Set No fill",
+        "key": "/"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Fill with Foreground Color",
+        "key": "Alt + Backspace"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Fill with Background Color",
+        "key": "Ctrl + Backspace"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Next Blend Mode",
+        "key": "Shift + ="
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Previous Blend Mode",
+        "key": "Shift + -"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Add",
+        "key": "Alt + Shift + W"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Color",
+        "key": "Alt + Shift + C"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Color Burn",
+        "key": "Alt + Shift + B"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Color Dodge",
+        "key": "Alt + Shift + D"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Darken",
+        "key": "Alt + Shift + K"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Difference",
+        "key": "Alt + Shift + E"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Exclusion",
+        "key": "Alt + Shift + X"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Hard Light",
+        "key": "Alt + Shift + H"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Hard Mix",
+        "key": "Alt + Shift + L"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Hue",
+        "key": "Alt + Shift + U"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Lighten",
+        "key": "Alt + Shift + G"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Linear Burn",
+        "key": "Alt + Shift + A"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Linear Light",
+        "key": "Alt + Shift + J"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Luminosity",
+        "key": "Alt + Shift + Y"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Multiply",
+        "key": "Alt + Shift + M"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Normal",
+        "key": "Alt + Shift + N"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Overlay",
+        "key": "Alt + Shift + O"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Pigment",
+        "key": "Alt + Shift + P"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Pin Light",
+        "key": "Alt + Shift + Z"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Saturation",
+        "key": "Alt + Shift + T"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Screen",
+        "key": "Alt + Shift + S"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Soft Light",
+        "key": "Alt + Shift + F"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Blend Mode Vivid Light",
+        "key": "Alt + Shift + V"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Black & White Adjustment",
+        "key": "Ctrl + Alt + Shift + B"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Brightness / Contrast Adjustment",
+        "key": "Ctrl + B"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Curves Adjustment",
+        "key": "Ctrl + M"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "HSL Adjustment",
+        "key": "Ctrl + U"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Invert Adjustment",
+        "key": "Ctrl + I"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Levels Adjustment",
+        "key": "Ctrl + L"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Live Liquify Filter",
+        "key": "Ctrl + Shift + X"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Decrease/increase shape or curve's stroke width",
+        "key": "[ or ]"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Decrease/increase stroke width by absolute values",
+        "key": "Shift + [ or Shift + ]"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Fill",
+        "key": "Shift + F5"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Inpaint",
+        "key": "Alt + Shift + Backspace"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Apply mesh warp",
+        "key": "Ctrl + Alt + M"
+    },
+    {
+        "software": "Affinity",
+        "category": "General",
+        "action": "Create symbol",
+        "key": "Ctrl + Shift + K"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Corner Tool",
+        "key": "C"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Fill Tool",
+        "key": "G"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Knife Tool",
+        "key": "K"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Move Tool",
+        "key": "V"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Node Tool",
+        "key": "A"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Path Brush Tool",
+        "key": "B"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Pen Tool",
+        "key": "P"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Pencil Tool",
+        "key": "N"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Point Transform Tool",
+        "key": "F"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Shape Builder Tool",
+        "key": "S"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Shape Tools Cycle",
+        "key": "U"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Stroke Width Tool",
+        "key": "W"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Text Tools Cycle",
+        "key": "T"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Transparency Tool",
+        "key": "Y"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Vector Flood Fill Tool",
+        "key": "R"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "View Tool",
+        "key": "H"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Zoom Tool",
+        "key": "Z"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Slice Tool",
+        "key": "S"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Slice Selection Tool",
+        "key": "L"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Convert to Smooth node",
+        "key": "Right-click"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Convert to Sharp node (cusp)",
+        "key": "Alt-click or double-click"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Delete a node (retaining curve's geometry)",
+        "key": "Backspace"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Delete a node (for 'best-fitting' reshaped curve)",
+        "key": "Alt + Backspace"
+    },
+    {
+        "software": "Affinity",
+        "category": "Vector",
+        "action": "Toggle between standard brush cursor and crosshair",
+        "key": "Caps lock"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Clone Brush Tool",
+        "key": "S"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Color Picker Tool",
+        "key": "I"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Color Replacement Brush Tool",
+        "key": "R"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Crop Tool",
+        "key": "C"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Erase Tools cycle",
+        "key": "E"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Fill Tools cycle",
+        "key": "G"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Freehand Selection Tool",
+        "key": "L"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Healing Tools cycle",
+        "key": "J"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Marquee Selection Tools cycle",
+        "key": "M"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Move Tool",
+        "key": "V"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Node Tool",
+        "key": "A"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Paint Brush Tool",
+        "key": "B"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Pen Tool",
+        "key": "P"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Pixel Tool",
+        "key": "Y"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Pixel Selection Tools cycle",
+        "key": "W"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Shape tools cycle",
+        "key": "U"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Text tools cycle",
+        "key": "T"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Tonal Adjustment Brush Tools cycle",
+        "key": "O"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "View Tool",
+        "key": "H"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Zoom Tool",
+        "key": "Z"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Invert Pixel Selection",
+        "key": "Ctrl + Shift + I"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Feather pixel selection",
+        "key": "Shift + F6"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Refine Edges of pixel selection",
+        "key": "Ctrl + Alt + R"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Fade (operation name)",
+        "key": "Ctrl + Shift + F"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Mask All",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Clear Mask",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Invert Mask",
+        "key": "Ctrl + I"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Live Stack",
+        "key": "Ctrl + Alt + Shift + O"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Freeze Tool",
+        "key": "F"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Hand Tool",
+        "key": "H"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Mesh Clone Tool",
+        "key": "C"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Pinch Tool",
+        "key": "U"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Punch Tool",
+        "key": "N"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Push Forward Tool",
+        "key": "P"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Push Left Tool",
+        "key": "L"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Reconstruct Tool",
+        "key": "R"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Thaw Tool",
+        "key": "W"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Turbulence Tool",
+        "key": "B"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Twirl Tool",
+        "key": "T"
+    },
+    {
+        "software": "Affinity",
+        "category": "Pixel",
+        "action": "Liquify Zoom Tool",
+        "key": "Z"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Fill Tool",
+        "key": "G"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move Tool",
+        "key": "V"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Node Tool",
+        "key": "A"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Pen Tool",
+        "key": "P"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Picture Frame tools cycle",
+        "key": "K"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Shape tools cycle",
+        "key": "U"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Text tools cycle",
+        "key": "T"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Transparency Tool",
+        "key": "Y"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Vector Flood Fill Tool",
+        "key": "R"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "View Tool",
+        "key": "H"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Zoom Tool",
+        "key": "Z"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Add Page",
+        "key": "Ctrl + Shift + PgDn"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Previous Page",
+        "key": "Ctrl + PgUp"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Next Page",
+        "key": "Ctrl + PgDn"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Convert to Picture Frame",
+        "key": "Shift + P"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Edit Detached (Master Page)",
+        "key": "Ctrl + Shift + D"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Spelling Options",
+        "key": "Ctrl + Shift + ;"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Open Find and Replace panel",
+        "key": "Ctrl + F"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move left by one character",
+        "key": "Left Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move right by one character",
+        "key": "Right Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move to start of word",
+        "key": "Ctrl + Left Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move to end of word",
+        "key": "Ctrl + Right Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move to start of line",
+        "key": "Home"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move to end of line",
+        "key": "End"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move to start of text frame/story",
+        "key": "Ctrl + Home"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move to end of text frame/story",
+        "key": "Ctrl + End"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move to start of current paragraph",
+        "key": "Ctrl + Up Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Move to start of next paragraph",
+        "key": "Ctrl + Down Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Delete character to left",
+        "key": "Backspace"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Delete character to right",
+        "key": "Delete"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Delete to start of word",
+        "key": "Ctrl + Backspace"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Delete to end of word",
+        "key": "Ctrl + Delete"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Bold",
+        "key": "Ctrl + B"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Font size: Bigger",
+        "key": "Ctrl + >"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Font size: Precise Bigger",
+        "key": "Ctrl + Alt + >"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Font size: Smaller",
+        "key": "Ctrl + <"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Font size: Precise Smaller",
+        "key": "Ctrl + Alt + <"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Italic",
+        "key": "Ctrl + I"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "List level: Decrease",
+        "key": "Alt + Shift + ["
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "List level: Increase",
+        "key": "Alt + Shift + ]"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Open Character panel",
+        "key": "Ctrl + T"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Superscript",
+        "key": "Ctrl + Shift + ="
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Subscript",
+        "key": "Ctrl + Alt + -"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Underline",
+        "key": "Ctrl + U"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Align Left",
+        "key": "Ctrl + Alt + L"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Align Center",
+        "key": "Ctrl + Alt + C"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Align Right",
+        "key": "Ctrl + Alt + R"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Justify Left",
+        "key": "Ctrl + Alt + I"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Baseline: Raise",
+        "key": "Alt + Shift + Up Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Baseline: Lower",
+        "key": "Alt + Shift + Down Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Kerning/Tracking: Loosen",
+        "key": "Alt + Right Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Kerning/Tracking: Loosen More",
+        "key": "Alt + Shift + Right Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Kerning/Tracking: Tighten",
+        "key": "Alt + Left Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Kerning/Tracking: Tighten More",
+        "key": "Alt + Shift + Left Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Leading: Decrease",
+        "key": "Alt + Up Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Leading: Increase",
+        "key": "Alt + Down Arrow"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Em Dash",
+        "key": "Alt + -"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "En Dash",
+        "key": "Alt + Shift + -"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Indent to Here",
+        "key": "Ctrl + \\"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Insert index mark",
+        "key": "Ctrl + Alt + Shift + ["
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Line Break",
+        "key": "Shift + Return"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Non-Breaking Hyphen",
+        "key": "Ctrl + Alt + Shift + -"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Non-Breaking Space",
+        "key": "Alt + Spacebar"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Right Indent Tab",
+        "key": "Shift + Tab"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Soft Hyphen",
+        "key": "Ctrl + Shift + -"
+    },
+    {
+        "software": "Affinity",
+        "category": "Layout",
+        "action": "Toggle Unicode",
+        "key": "Alt + U"
     }
 ]
