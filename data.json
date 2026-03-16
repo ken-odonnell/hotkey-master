@@ -43,9 +43,9 @@
     },
     {
         "software": "Nuke",
-        "category": "Nodes",
-        "action": "Search Nodes",
-        "key": "Tab"
+        "category": "Global",
+        "action": "Delete selected clips or folders",
+        "key": "Backspace/Delete"
     },
     {
         "software": "PowerToys",
@@ -6310,5 +6310,2555 @@
         "category": "Network Editor",
         "action": "Edit image mode (Network Overview)",
         "key": "Ctrl + 1"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Clear buffers and playback cache",
+        "key": "F12"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Virtual slider (number fields)",
+        "key": "MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Expand the focused panel to the full window",
+        "key": "Spacebar (short press)"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Raise the right-click menu",
+        "key": "Spacebar (long press)"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Make the application or floating window fullscreen",
+        "key": "Alt + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Show Curve Editor",
+        "key": "Alt + `"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Select all",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Copy selected item(s)",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Duplicate selected item(s)",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Save current window layout",
+        "key": "Ctrl + F1..F6"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Float panel",
+        "key": "Ctrl + LMB on panel name"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Create a new project or script",
+        "key": "Ctrl + N"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Open a project or script",
+        "key": "Ctrl + O"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Exit the application",
+        "key": "Ctrl + Q"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Save current project or script",
+        "key": "Ctrl + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Cycle through tabs in the current pane",
+        "key": "Ctrl + T"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Paste the contents of the clipboard",
+        "key": "Ctrl + V"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Close the current project or script",
+        "key": "Ctrl + W"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Cut selected item(s)",
+        "key": "Ctrl + X"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Undo last action",
+        "key": "Ctrl + Z"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Close the current tab",
+        "key": "Shift + Esc"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Change workspace",
+        "key": "Shift + F1..F6"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Open the Preferences dialog",
+        "key": "Shift + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Open a recent project or script",
+        "key": "Alt + Shift + 1..6"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Select none",
+        "key": "Ctrl + Shift + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Goto next pane",
+        "key": "Ctrl + Alt + `"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Goto next tab",
+        "key": "Ctrl + Shift + ["
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Goto previous tab",
+        "key": "Ctrl + Shift + ]"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Save As",
+        "key": "Ctrl + Shift + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Redo last action",
+        "key": "Ctrl + Shift + Z"
+    },
+    {
+        "software": "Nuke",
+        "category": "Global",
+        "action": "Goto previous pane",
+        "key": "Ctrl + Alt + Shift + '"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Zoom Out",
+        "key": "-"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Zoom In",
+        "key": "+"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Alpha",
+        "key": "A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Blue",
+        "key": "B"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Razor selected",
+        "key": "C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Clipping Warning",
+        "key": "E"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Go to End",
+        "key": "End"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Zoom to Fit",
+        "key": "F"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Clear playback cache",
+        "key": "F12"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Green",
+        "key": "G"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Zoom to Fill",
+        "key": "H"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Go to Start",
+        "key": "Home"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Mark In point",
+        "key": "I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Play Backward",
+        "key": "J"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Pause",
+        "key": "K"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Play Forward",
+        "key": "L"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Frame Backwards",
+        "key": "Left Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Mark Out point",
+        "key": "O"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Next Layer",
+        "key": "PgDown"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Previous Layer",
+        "key": "PgUp"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Show Overlays",
+        "key": "Q"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Red",
+        "key": "R"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Swap A/B Inputs",
+        "key": "Return"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Frame Forwards",
+        "key": "Right Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Display the version selector",
+        "key": "V"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Wipe",
+        "key": "W"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Luma",
+        "key": "Y"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Zoom out by 100%, 200%",
+        "key": "Alt + # (1, 2, etc.)"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Version down the selected clip or shot",
+        "key": "Alt + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Clear In Point",
+        "key": "Alt + I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Clear Out Point",
+        "key": "Alt + O"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Previous Tag",
+        "key": "Alt + Shift + Left Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Next Tag",
+        "key": "Alt + Shift + Right Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Clear In/Out Points",
+        "key": "Alt + U"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Version up the selected clip or shot",
+        "key": "Alt + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Zoom-in by 100%, 200%",
+        "key": "Ctrl + # (1, 2, etc.)"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Show Timeline Editor",
+        "key": "Ctrl + /"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Full Screen",
+        "key": "Ctrl + F"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Color picker (single pixel)",
+        "key": "Ctrl + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Deselect sampled pixels",
+        "key": "Ctrl + RMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Save current project",
+        "key": "Ctrl + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Razor all under playhead",
+        "key": "Shift + C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Go to In Point",
+        "key": "Shift + I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Skip Backwards",
+        "key": "Shift + Left Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Go to Out Point",
+        "key": "Shift + O"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Skip Forwards",
+        "key": "Shift + Right Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Go to min version",
+        "key": "Ctrl + Alt + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Go to max version",
+        "key": "Ctrl + Alt + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Zoom to Actual Size",
+        "key": "Ctrl + Shift + 1"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Zoom to Half Size",
+        "key": "Ctrl + Shift + 2"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Full Quality 1:1",
+        "key": "Ctrl + Shift + F"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Color picker (region of pixels)",
+        "key": "Ctrl + Shift + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Ignore Pixel Aspect",
+        "key": "Ctrl + Shift + P"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline Viewer",
+        "action": "Save current project and specify name (Save As)",
+        "key": "Ctrl + Shift + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Nudge selected shot(s) left",
+        "key": ","
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Nudge selected shot(s) right",
+        "key": "."
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Select playheads 1-10",
+        "key": "1, 2, 3.. 0"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Display in the A input buffer",
+        "key": "A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Display in the B input buffer",
+        "key": "B"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Ripple and duplicate the dragged shot",
+        "key": "Alt + Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Duplicate the dragged shot",
+        "key": "Drag then Alt"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Enable or disable the selected shot(s)",
+        "key": "D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Next Edit",
+        "key": "Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Cycles between Slip Clip and Slide Clip tools",
+        "key": "E"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Edit playhead time",
+        "key": "Enter (numeric keypad)"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Clear playback cache",
+        "key": "F12"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Render all Comp containers",
+        "key": "F5"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Render selected Comp containers",
+        "key": "F7"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Select a shot including any linked tracks",
+        "key": "LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Zooms to view the selected shot(s)",
+        "key": "F"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Zooms to view the whole timeline",
+        "key": "H"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Insert contents of source Viewer (Overwrite)",
+        "key": "M"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Insert contents of source Viewer (Ripple)",
+        "key": "N"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Change selection between shots",
+        "key": "Numeric keypad arrows"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Cycles between move tools (Multi, Move/Trim, Select)",
+        "key": "Q"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Cycles between edit tools (Ripple, Roll, Retime)",
+        "key": "R"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Cycles between razor tools",
+        "key": "T"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Mark shot",
+        "key": "U"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Previous Edit",
+        "key": "Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Display the version selector",
+        "key": "V"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Cycles between the available selection tools",
+        "key": "W"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Insert new track",
+        "key": "Shift + Drag shot"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Nudge selected shot(s) up",
+        "key": "Alt + ,"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Nudge selected shot(s) down",
+        "key": "Alt + ."
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Insert a ColorCorrect soft effect",
+        "key": "Alt + C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Display metadata for selected item(s)",
+        "key": "Alt + D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Version down the selected shot",
+        "key": "Alt + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Insert a Grade soft effect",
+        "key": "Alt + G"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Select a shot, ignoring linked tracks",
+        "key": "Alt + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Insert a Transform soft effect",
+        "key": "Alt + T"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Version up the selected shot",
+        "key": "Alt + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Nudge selected shot(s)",
+        "key": "Ctrl + Numeric keypad arrows"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Select all shots",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Import files",
+        "key": "Ctrl + I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Open selected shot in the Viewer",
+        "key": "Ctrl + Return"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Add a dissolve between two selected shots",
+        "key": "Ctrl + T"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Nudge selected shot(s) left by increment",
+        "key": "Shift + ,"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Nudge selected shot(s) right by increment",
+        "key": "Shift + ."
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Sends all tracks to Input Buffer A",
+        "key": "Shift + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Sends all tracks to Input Buffer B",
+        "key": "Shift + B"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Ripple delete / Disable snap to transition",
+        "key": "Shift + Backspace / Shift + Ctrl + Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Mark selection",
+        "key": "Shift + U"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Rename shots",
+        "key": "Alt + Shift + /"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Select all in track",
+        "key": "Ctrl + Alt + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Go to min version",
+        "key": "Alt + Shift + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Go to max version",
+        "key": "Alt + Shift + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Open selected shot in a new Viewer",
+        "key": "Ctrl + Alt + Return"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Deselect all shots",
+        "key": "Ctrl + Shift + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Open the Export dialog",
+        "key": "Ctrl + Shift + E"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Import folders",
+        "key": "Ctrl + Shift + I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Select all shots between the left-clicks",
+        "key": "LMB then Shift + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Ignore linked tracks during selection",
+        "key": "Shift + Alt + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Import EDL, OTIO, XML, or AAF",
+        "key": "Ctrl + Alt + Shift + I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Jump to next edit in the selected track(s)",
+        "key": "PgDown"
+    },
+    {
+        "software": "Nuke",
+        "category": "Timeline",
+        "action": "Jump to previous edit in the selected track(s)",
+        "key": "PgUp"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom Out",
+        "key": "-"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Decrease Gain",
+        "key": ","
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Previous view (multi-view)",
+        "key": ";"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Increase Gain",
+        "key": "."
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Next view (multi-view)",
+        "key": "'"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle left toolbar",
+        "key": "["
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle right toolbar",
+        "key": "]"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle floating viewers",
+        "key": "`"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom In",
+        "key": "+"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Set Viewer inputs for A buffer",
+        "key": "1, 2, etc."
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggles Alpha channel and RGB",
+        "key": "A"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggles Blue channel and RGB",
+        "key": "B"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Switch to previous input for A / Go to out point",
+        "key": "Down Arrow / End"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom to Fit",
+        "key": "F or MMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggles Green channel and RGB",
+        "key": "G"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom to Fill",
+        "key": "H"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Go to the in point",
+        "key": "Home"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Mark In point",
+        "key": "I"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Play Backward",
+        "key": "J"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Pause",
+        "key": "K"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Play Forward",
+        "key": "L"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Step backward one frame",
+        "key": "Left Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggles Matte channel and RGB",
+        "key": "M"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Nudge one frame backward or forward",
+        "key": "Numeric pad left/right arrows"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Mark Out point",
+        "key": "O"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Pause Viewer refreshing",
+        "key": "P"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Next layer",
+        "key": "PgDown"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Previous layer",
+        "key": "PgUp"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle overlays",
+        "key": "Q"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggles Red channel and RGB",
+        "key": "R"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Swap A/B input buffers",
+        "key": "Return"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Step forward one frame",
+        "key": "Right Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Open Viewer settings",
+        "key": "S"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle 2D/3D",
+        "key": "Tab"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Update the Viewer",
+        "key": "U"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Switch to next input for A buffer",
+        "key": "Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle wipe tool",
+        "key": "W"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggles Luminance channel and RGB",
+        "key": "Y"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom out by 100%, 200%",
+        "key": "Alt + # (1, 2, etc.)"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Go to a specific frame",
+        "key": "Alt + G"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Clear In point",
+        "key": "Alt + I"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Pan",
+        "key": "Alt + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom in/Out at the pointer location",
+        "key": "Alt + MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Clear Out point",
+        "key": "Alt + O"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle Input Process",
+        "key": "Alt + P"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Clear In and Out points",
+        "key": "Alt + U"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "ROI - Activate new region",
+        "key": "Alt + W"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle lock/unlock zoom level",
+        "key": "Alt + Z"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom-in by 100%, 200%",
+        "key": "Ctrl + # (1, 2, etc.)"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Move playhead backwards",
+        "key": "Ctrl + Left Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Color picker (single pixel)",
+        "key": "Ctrl + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle Proxy",
+        "key": "Ctrl + P"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Move playhead forwards",
+        "key": "Ctrl + Right Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Deselect sampled pixels",
+        "key": "Ctrl + RMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Save current script",
+        "key": "Ctrl + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle previewing output on an external monitor",
+        "key": "Ctrl + U"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom in and out with click point set as center",
+        "key": "LMB + MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle range and Visible mode",
+        "key": "MMB and RMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zooms the time slider",
+        "key": "MMB Drag (time slider)"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Pans in the Viewer",
+        "key": "MMB Drag (Viewer)"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Zoom in and out of the time slider",
+        "key": "MMB Scroll"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle top toolbar",
+        "key": "Shift + ["
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle bottom toolbar",
+        "key": "Shift + ]"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Set Viewer inputs for B buffer",
+        "key": "Shift + 1, 2, etc."
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Switch to the previous input for B buffer",
+        "key": "Shift + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Move/Nudge playhead backward",
+        "key": "Shift + Left Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Move/Nudge playhead forward",
+        "key": "Shift + Right Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Switch to next input for B buffer / Enable ROI",
+        "key": "Shift + Up Arrow / Shift + W"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Save script and increment version number",
+        "key": "Alt + Shift + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Color picker (region)",
+        "key": "Ctrl + Shift + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Toggle pixel aspect ratio",
+        "key": "Ctrl + Shift + P"
+    },
+    {
+        "software": "Nuke",
+        "category": "2D Compositing Viewer",
+        "action": "Save current script and specify name (Save As)",
+        "key": "Ctrl + Shift + S"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "3D Top view",
+        "key": "C"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Next layer (color channel display)",
+        "key": "PgDown"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Previous layer (color channel display)",
+        "key": "PgUp"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Toggle soft selection",
+        "key": "N"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Mouse drag to change soft selection radius",
+        "key": "N + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Display Viewer Settings",
+        "key": "S"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Toggle 2D/3D viewer",
+        "key": "Tab"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "3D Perspective view",
+        "key": "V"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Wipe tool",
+        "key": "W"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "3D right-side view",
+        "key": "X"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "3D front view",
+        "key": "Z"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Translate viewer on y, z axis",
+        "key": "Alt + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Zoom in/out",
+        "key": "Alt + MMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Rotate viewer on x, y axis",
+        "key": "Alt + RMB or Ctrl + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Toggle Camera or Light lock",
+        "key": "Ctrl + L"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "3D Bottom view",
+        "key": "Shift + C"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "3D Left-side view",
+        "key": "Shift + X"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "3D Back view",
+        "key": "Shift + Z"
+    },
+    {
+        "software": "Nuke",
+        "category": "3D Compositing Viewer",
+        "action": "Rotate viewer on z axis",
+        "key": "Ctrl + Shift + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Zoom-out",
+        "key": "-"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Dot node",
+        "key": "."
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Search by node name or class",
+        "key": "/"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Snaps all nodes to grid",
+        "key": "\\"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Connect Viewer inputs",
+        "key": "1, 2, 3, etc."
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Zoom-in",
+        "key": "+"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Blur node",
+        "key": "B"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Delete selected nodes",
+        "key": "Backspace/Delete"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Color Correct node",
+        "key": "C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Disable/Enable node",
+        "key": "D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Next node in tree",
+        "key": "Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Fit selected nodes or all nodes",
+        "key": "F"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Render all Write nodes",
+        "key": "F5"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Render selected Write nodes",
+        "key": "F7"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Grade node",
+        "key": "G"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Display selected node information",
+        "key": "I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Jump to bookmarked node",
+        "key": "J"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Copy node",
+        "key": "K"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Auto-place selected nodes",
+        "key": "L"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Merge node",
+        "key": "M"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Fit all nodes to Node Graph panel",
+        "key": "MMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Pan",
+        "key": "MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Cycle node inputs / Rename node",
+        "key": "LMB (Hold) + RMB / N"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Navigate around the node tree",
+        "key": "Numeric pad arrows"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Roto node",
+        "key": "O"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert RotoPaint node",
+        "key": "P"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Show named script info",
+        "key": "Q"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Read node",
+        "key": "R"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Open properties",
+        "key": "Return"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Display Project Settings",
+        "key": "S"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Transform node",
+        "key": "T"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Tab node search menu",
+        "key": "Tab"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Splay first",
+        "key": "U"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Previous node in tree",
+        "key": "Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert Write node",
+        "key": "W"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Command entry mode",
+        "key": "X"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Splay selected nodes",
+        "key": "Y"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Zoom-out %",
+        "key": "Alt + #"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Duplicate and branch selected nodes",
+        "key": "Alt + B"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Duplicate selected node(s)",
+        "key": "Alt + C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Toggle node always in Dope Sheet",
+        "key": "Alt + D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Version down Read/Write",
+        "key": "Alt + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Toggle expression links",
+        "key": "Alt + E"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Generate Flipbook for node",
+        "key": "Alt + F"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Hide node inputs when not selected",
+        "key": "Alt + H"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Display script information",
+        "key": "Alt + I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Clone selected node(s)",
+        "key": "Alt + K"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Create Sticky Note",
+        "key": "Alt + N"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Toggle postage stamp",
+        "key": "Alt + P"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Splay first selected node to input A",
+        "key": "Alt + U"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Version up Read/Write",
+        "key": "Alt + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Run a script",
+        "key": "Alt + X"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Zoom-in %",
+        "key": "Ctrl + #"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Select all nodes",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Toggle node buffer",
+        "key": "Ctrl + B"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Copy",
+        "key": "Ctrl + C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Replace selected node",
+        "key": "Ctrl + Create node"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Disconnect upstream node",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Move selected node downstream",
+        "key": "Ctrl + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Save locations / Nest in Group",
+        "key": "Ctrl + F7..F10 / Ctrl + G"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Open new Compositing Viewer",
+        "key": "Ctrl + I"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Copy as clone",
+        "key": "Ctrl + K"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Collapse selected nodes to LiveGroup",
+        "key": "Ctrl + L"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Highlight all upstream / Toggle Proxy",
+        "key": "Ctrl + LMB on node / Ctrl + P"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Open Group's sub-graph",
+        "key": "Ctrl + Return/Enter"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Move selected node upstream",
+        "key": "Ctrl + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Paste / Cut",
+        "key": "Ctrl + V / Ctrl + X"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Zoom",
+        "key": "LMB + MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Snap selected node to grid",
+        "key": "Shift + \\"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Connect selected node to Viewer B buffer",
+        "key": "Shift + #"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Insert AddMix node",
+        "key": "Shift + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Create node in new branch",
+        "key": "Shift + Create node"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Duplicate selected arrow",
+        "key": "Shift + Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Restore locations",
+        "key": "Shift + F7..F10"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Splay first selected node to input B",
+        "key": "Shift + U"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Swap A/B inputs",
+        "key": "Shift + X"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Splay outputs",
+        "key": "Shift + Y"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Pan Node Graph",
+        "key": "Alt + LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Zoom-in/out Node Graph",
+        "key": "Alt + MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Declone nodes",
+        "key": "Alt + Shift + K"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Splay last selected node to input A",
+        "key": "Alt + Shift + U"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Version up to latest file",
+        "key": "Alt + Shift + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Select all nodes connected",
+        "key": "Ctrl + Alt + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Replace Group node",
+        "key": "Ctrl + Alt + G"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Open node properties in floating window",
+        "key": "Ctrl + Alt + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Paste knob values",
+        "key": "Ctrl + Alt + V"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Search and Replace Read and Write nodes",
+        "key": "Ctrl + Shift + /"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Toggle selected node(s) bookmark",
+        "key": "Ctrl + Shift + B"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Change node color",
+        "key": "Ctrl + Shift + C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Copy gizmo to group",
+        "key": "Ctrl + Shift + G"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Paste copied node into a new branch",
+        "key": "Ctrl + Shift + V"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Select all upstream nodes",
+        "key": "Ctrl + Shift + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Create a new script in new session",
+        "key": "Ctrl + Shift + N"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Create Precomp",
+        "key": "Ctrl + Shift + P"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Extract selected nodes",
+        "key": "Ctrl + Shift + X"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Create Group",
+        "key": "Ctrl + Alt + Shift + G"
+    },
+    {
+        "software": "Nuke",
+        "category": "Node Graph",
+        "action": "Force clone",
+        "key": "Ctrl + Alt + Shift + K"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Hide version(s)",
+        "key": "D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Refresh clips",
+        "key": "F8"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Display version selector",
+        "key": "V"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Display metadata",
+        "key": "Alt + D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Version down",
+        "key": "Alt + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Rescan clip range",
+        "key": "Alt + F5"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Version up",
+        "key": "Alt + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Create a new bin",
+        "key": "Ctrl + B"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Create a new sequence",
+        "key": "Ctrl + N"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Open selected clip",
+        "key": "Ctrl + Return"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Create a new tag",
+        "key": "Ctrl + Y"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Go to min version",
+        "key": "Alt + Shift + Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Open selected clip in new Viewer",
+        "key": "Ctrl + Alt + Return"
+    },
+    {
+        "software": "Nuke",
+        "category": "Project/Tags/Versions Bin",
+        "action": "Go to max version",
+        "key": "Alt + Shift + Up Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Closes currently active Properties panel",
+        "key": "Esc"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Chooses selected menu item",
+        "key": "Return/Enter"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Move to next control",
+        "key": "Tab"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Increment control values",
+        "key": "Up/Down Arrow"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Copy current value",
+        "key": "LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Adjust control values (regular)",
+        "key": "MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Close all open Properties panels",
+        "key": "Alt + LMB on close (x) / Ctrl + Shift + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Toggle postage stamp on/off",
+        "key": "Alt + P"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Reset slider to default",
+        "key": "Ctrl + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Close all properties panels except clicked",
+        "key": "Ctrl + LMB on close (x)"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Adjust control values (magnitude dependent)",
+        "key": "Alt + LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Adjust control values (fine)",
+        "key": "Alt + MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Expression link controls",
+        "key": "Ctrl + LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Copy animation",
+        "key": "Shift + LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Adjust control values (coarse)",
+        "key": "Shift + MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Properties Panel",
+        "action": "Move to previous control",
+        "key": "Shift + Tab"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Frame all keyframes",
+        "key": "A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Interpolation (Cubic)",
+        "key": "C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Frame all selected keyframes",
+        "key": "F"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Interpolation (Horizontal)",
+        "key": "H"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Interpolation (Constant)",
+        "key": "K"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Interpolation (Linear)",
+        "key": "L"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Select single point",
+        "key": "LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Select region",
+        "key": "LMB Drag on blank space"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Move points",
+        "key": "LMB Drag on point"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Scale points",
+        "key": "LMB Drag on selection box"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Move points in region",
+        "key": "LMB Drag on transform handle"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Zoom to fit area",
+        "key": "MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Fit selection",
+        "key": "MMB or F"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Interpolation (Catmull-Rom)",
+        "key": "R"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Break selected control points handles",
+        "key": "X"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Interpolation (Smooth/bezier)",
+        "key": "Z"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Display Curve Editor",
+        "key": "Alt + `"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Pan Curve Editor",
+        "key": "Alt + LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Variable zoom Curve Editor",
+        "key": "Alt + MMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Select all curves",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Copy Expressions",
+        "key": "Ctrl + E"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Copy Links",
+        "key": "Ctrl + L"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Move keyframes freely",
+        "key": "Ctrl + LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Hide points",
+        "key": "Ctrl + Shift (Hold)"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Add/Remove points",
+        "key": "Shift + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Draw box to add/remove",
+        "key": "Shift + LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Move single point",
+        "key": "Alt + Shift + LMB Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Add point",
+        "key": "Ctrl + Alt + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Copy selected curves",
+        "key": "Ctrl + Shift + C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Curve Editor/Dope Sheet",
+        "action": "Sketch points freely",
+        "key": "Ctrl + Alt + Shift + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Script Editor",
+        "action": "Increase indentation",
+        "key": "Tab"
+    },
+    {
+        "software": "Nuke",
+        "category": "Script Editor",
+        "action": "Load previous script",
+        "key": "Ctrl + ["
+    },
+    {
+        "software": "Nuke",
+        "category": "Script Editor",
+        "action": "Load next script",
+        "key": "Ctrl + ]"
+    },
+    {
+        "software": "Nuke",
+        "category": "Script Editor",
+        "action": "Clear output window",
+        "key": "Ctrl + Backspace"
+    },
+    {
+        "software": "Nuke",
+        "category": "Script Editor",
+        "action": "Run script in editor",
+        "key": "Ctrl + Return/Enter"
+    },
+    {
+        "software": "Nuke",
+        "category": "Script Editor",
+        "action": "Decrease indentation",
+        "key": "Shift + Tab"
+    },
+    {
+        "software": "Nuke",
+        "category": "Script Editor",
+        "action": "Decrease indentation of selected text",
+        "key": "Ctrl + Shift + ["
+    },
+    {
+        "software": "Nuke",
+        "category": "Script Editor",
+        "action": "Increase indentation of selected text",
+        "key": "Ctrl + Shift + ]"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Delete item from curve list or points/shapes",
+        "key": "Backspace"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Toggle Clone tool",
+        "key": "C"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Toggle Dodge/Burn",
+        "key": "D"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Remove selected point(s)",
+        "key": "Delete"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Increase feather",
+        "key": "E"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Switch back to Select tool",
+        "key": "Esc"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Toggle Brush/Eraser",
+        "key": "N"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Close shape",
+        "key": "Return"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Cycle tool modes",
+        "key": "S"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Toggle source / Display transform box",
+        "key": "T"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Toggle Bezier/B-Spline/Ellipse/Rectangle",
+        "key": "V"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Toggle Blur/Sharpen/Smear",
+        "key": "X"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Smooth selected points",
+        "key": "Z"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Select all points",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Sketch Bezier / Break tangent handle",
+        "key": "Ctrl + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Set offset",
+        "key": "Ctrl + Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Drag points",
+        "key": "Ctrl + Shift (transform box)"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Create sharp point / Bring up transform box",
+        "key": "Shift + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Change brush size / Move both tangent handles",
+        "key": "Shift + Drag"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Remove feather",
+        "key": "Shift + E"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Cusp selected points",
+        "key": "Shift + Z"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Add point to curve",
+        "key": "Ctrl + Alt + LMB"
+    },
+    {
+        "software": "Nuke",
+        "category": "Roto/RotoPaint",
+        "action": "Increase/decrease tension",
+        "key": "Ctrl + Shift + Drag"
     }
 ]
