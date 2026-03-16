@@ -12,6 +12,12 @@
         "key": "B + LClick"
     },
     {
+        "software": "Blender",
+        "category": "File Menu",
+        "action": "New File",
+        "key": "Ctrl + N"
+    },
+    {
         "software": "DaVinci Resolve",
         "category": "Editing",
         "action": "Blade Tool",
@@ -1282,12 +1288,6 @@
         "category": "Workspace",
         "action": "Cinema Viewer",
         "key": "P"
-    },
-    {
-        "software": "Blender",
-        "category": "File Menu",
-        "action": "New File",
-        "key": "Ctrl + N"
     },
     {
         "software": "Blender",
