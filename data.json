@@ -1054,5 +1054,239 @@
         "category": "Animation Editor",
         "action": "Transform Selection",
         "key": "Ctrl + M"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Playback",
+        "action": "Play Forward",
+        "key": "L"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Playback",
+        "action": "Pause",
+        "key": "K"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Playback",
+        "action": "Play Reverse",
+        "key": "J"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Timeline",
+        "action": "Zoom In",
+        "key": "Ctrl + ="
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Timeline",
+        "action": "Zoom Out",
+        "key": "Ctrl + -"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Timeline",
+        "action": "Fit to Window",
+        "key": "Shift + Z"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Tools",
+        "action": "Selection Mode",
+        "key": "A"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Tools",
+        "action": "Trim Edit Mode",
+        "key": "T"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Tools",
+        "action": "Dynamic Trim Mode",
+        "key": "W"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Tools",
+        "action": "Snapping",
+        "key": "N"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Tools",
+        "action": "Linked Selection",
+        "key": "Ctrl + Shift + L"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Mark In",
+        "key": "I"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Mark Out",
+        "key": "O"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Clear In/Out",
+        "key": "Alt + X"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Insert",
+        "key": "F9"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Overwrite",
+        "key": "F10"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Replace",
+        "key": "F11"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Ripple Overwrite",
+        "key": "Shift + F10"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Append at End",
+        "key": "Shift + F12"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Ripple Delete",
+        "key": "Ctrl + Backspace"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Nudge Left",
+        "key": ","
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Nudge Right",
+        "key": "."
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Editing",
+        "action": "Select Clip Under Playhead",
+        "key": "X"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Color Page",
+        "action": "Add Serial Node",
+        "key": "Alt + S"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Color Page",
+        "action": "Add Parallel Node",
+        "key": "Alt + P"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Color Page",
+        "action": "Add Layer Node",
+        "key": "Alt + L"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Color Page",
+        "action": "Add Outside Node",
+        "key": "Alt + O"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Color Page",
+        "action": "Toggle All Nodes",
+        "key": "Alt + D"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Color Page",
+        "action": "Toggle Current Node",
+        "key": "Ctrl + D"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Media Page",
+        "key": "Shift + 2"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Cut Page",
+        "key": "Shift + 3"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Edit Page",
+        "key": "Shift + 4"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Fusion Page",
+        "key": "Shift + 5"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Color Page",
+        "key": "Shift + 6"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Fairlight Page",
+        "key": "Shift + 7"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Deliver Page",
+        "key": "Shift + 8"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Project Settings",
+        "key": "Shift + 9"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Full Screen Viewer",
+        "key": "Ctrl + F"
+    },
+    {
+        "software": "DaVinci Resolve",
+        "category": "Workspace",
+        "action": "Cinema Viewer",
+        "key": "P"
     }
 ]
