@@ -1,57 +1,224 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotkey Command Center</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        notion: {
-                            main: '#191919',
-                            sidebar: '#202020',
-                            hover: '#2c2c2c',
-                            border: '#2f2f2f',
-                            text: 'rgba(255, 255, 255, 0.81)',
-                            muted: 'rgba(255, 255, 255, 0.44)',
-                            key: '#2f2f2f',
-                            keyborder: '#373737'
-                        }
-                    },
-                    fontFamily: {
-                        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Helvetica', '"Apple Color Emoji"', 'Arial', 'sans-serif', '"Segoe UI Emoji"', '"Segoe UI Symbol"'],
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body {
-            background-color: #191919;
-            color: rgba(255, 255, 255, 0.81);
-        }
+import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { 
+  Search, Command, Monitor, Gamepad2, Film, Box, PenTool, 
+  Cpu, Camera, Check, Copy, Star, SearchX, AlertCircle, Menu, X
+} from 'lucide-react';
 
-        /* Notion-style flat sharp keys */
-        .kbd {
-            display: inline-block;
-            padding: 0.15rem 0.4rem;
-            font-size: 0.85rem;
-            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-            color: rgba(255, 255, 255, 0.81);
-            background-color: #2f2f2f;
-            border: 1px solid #373737;
-            border-radius: 0px; 
-            margin: 0 0.1rem;
-            transition: background-color 0.1s ease;
-        }
+const DATA_URL = 'https://raw.githubusercontent.com/ken-odonnell/hotkey-master/refs/heads/main/data.json';
 
-        /* Custom Scrollbar to match Notion */
+// Utility to get the right icon based on software name
+const getSoftwareIcon = (software) => {
+  const name = software.toLowerCase();
+  if (name.includes("unreal")) return Gamepad2;
+  if (name.includes("davinci") || name.includes("potplayer")) return Film;
+  if (name.includes("blender") || name.includes("maya") || name.includes("houdini")) return Box;
+  if (name.includes("affinity")) return PenTool;
+  if (name.includes("windows") || name.includes("powertoys")) return Cpu;
+  if (name.includes("sharex")) return Camera;
+  return Monitor;
+};
+
+// Component to format keys exactly like the HTML version
+const FormatKeyCombo = ({ keyString }) => {
+  if (!keyString) return null;
+  // Split by + or / keeping the delimiters
+  const parts = keyString.split(/(\s*\+\s*|\s*\/\s*)/);
+  
+  return (
+    <div className="flex items-center">
+      {parts.map((part, index) => {
+        if (part.trim() === '+' || part.trim() === '/') {
+          return (
+            <span key={index} className="text-[rgba(255,255,255,0.44)] mx-1 text-[11px]">
+              {part.trim()}
+            </span>
+          );
+        }
+        if (!part.trim()) return null;
+        return (
+          <span 
+            key={index} 
+            className="inline-block px-[0.4rem] py-[0.15rem] text-[0.85rem] font-mono text-[rgba(255,255,255,0.81)] bg-[#2f2f2f] border border-[#373737] mx-[0.1rem] transition-colors"
+          >
+            {part.trim()}
+          </span>
+        );
+      })}
+    </div>
+  );
+};
+
+export default function App() {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  
+  const [currentSoftware, setCurrentSoftware] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('All');
+  
+  const [toastMessage, setToastMessage] = useState('Copied to clipboard');
+  const [toastVisible, setToastVisible] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  
+  const toastTimeoutRef = useRef(null);
+
+  // --- NEW FAVORITES LOGIC ---
+  const getUniqueId = (item) => `${item.software}||${item.category}||${item.action}`;
+
+  const [favorites, setFavorites] = useState(() => {
+    try {
+      const saved = localStorage.getItem('hotkey-favorites');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
+
+  useEffect(() => {
+    localStorage.setItem('hotkey-favorites', JSON.stringify(favorites));
+  }, [favorites]);
+  // --- END NEW LOGIC ---
+
+  // Fetch Data
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(DATA_URL);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        
+        const jsonData = await response.json();
+        setData(jsonData);
+        
+        // Find unique software list
+        const softwareList = [...new Set(jsonData.map(item => item.software).filter(Boolean))];
+        if (softwareList.length > 0) {
+          setCurrentSoftware(softwareList[0]);
+        }
+      } catch (err) {
+        console.error("Could not load data.json:", err);
+        setError("Failed to load data.json. Ensure the file is valid JSON and publicly accessible.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  // Compute software list
+  const softwareList = useMemo(() => {
+    return [...new Set(data.map(item => item.software).filter(Boolean))];
+  }, [data]);
+
+  // Compute available categories for the currently selected software
+  const availableCategories = useMemo(() => {
+    const items = data.filter(item => item.software === currentSoftware);
+    const cats = new Set(items.map(item => item.category || 'General'));
+    return Array.from(cats).sort();
+  }, [data, currentSoftware]);
+
+  // Reset category filter when switching software
+  useEffect(() => {
+    setSelectedCategory('All');
+  }, [currentSoftware]);
+
+  // Filter and process data for main view
+  const viewData = useMemo(() => {
+    let filtered = data.filter(item => item.software === currentSoftware);
+    
+    if (selectedCategory !== 'All') {
+      filtered = filtered.filter(item => (item.category || 'General') === selectedCategory);
+    }
+    
+    if (searchQuery) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter(item => 
+        (item.action && item.action.toLowerCase().includes(query)) || 
+        (item.key && item.key.toLowerCase().includes(query)) ||
+        (item.category && item.category.toLowerCase().includes(query))
+      );
+    }
+
+    const favoriteItems = filtered.filter(item => favorites.includes(getUniqueId(item)));
+    
+    const categories = {};
+    filtered.forEach(item => {
+      const cat = item.category || 'General';
+      if (!categories[cat]) categories[cat] = [];
+      categories[cat].push(item);
+    });
+
+    return { filtered, favoriteItems, categories };
+  }, [data, currentSoftware, searchQuery, favorites, selectedCategory]);
+
+  // Copy to clipboard handler
+  const copyToClipboard = (text) => {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    
+    setToastMessage(`Copied: ${text}`);
+    setToastVisible(true);
+    
+    if (toastTimeoutRef.current) clearTimeout(toastTimeoutRef.current);
+    toastTimeoutRef.current = setTimeout(() => {
+      setToastVisible(false);
+    }, 2500);
+  };
+
+  // Row Item Component
+  const HotkeyRow = ({ item, isLast, showCategory }) => {
+    const isFavorite = favorites.includes(getUniqueId(item));
+
+    const handleToggleFavorite = (e) => {
+      e.stopPropagation(); // Prevent row click (copy) when clicking the star
+      const id = getUniqueId(item);
+      setFavorites(prev => 
+        prev.includes(id) ? prev.filter(favId => favId !== id) : [...prev, id]
+      );
+    };
+
+    return (
+      <div 
+        onClick={() => copyToClipboard(item.key)}
+        className={`flex items-center justify-between p-2.5 hover:bg-[#2c2c2c] cursor-pointer group transition-none ${!isLast ? 'border-b border-[#2f2f2f]' : ''}`}
+      >
+        <div className="flex items-center gap-3 pr-4">
+          <button 
+            onClick={handleToggleFavorite}
+            className="text-[rgba(255,255,255,0.44)] hover:text-yellow-500 transition-colors focus:outline-none"
+            title={isFavorite ? "Remove from Favorites" : "Add to Favorites"}
+          >
+            <Star className={`w-4 h-4 ${isFavorite ? 'fill-yellow-500 text-yellow-500' : ''}`} />
+          </button>
+          <div className="flex flex-col">
+            <div className="text-sm text-[rgba(255,255,255,0.81)]">{item.action}</div>
+            {showCategory && item.category && (
+              <div className="text-[10px] text-[rgba(255,255,255,0.44)] uppercase mt-0.5 tracking-wider">
+                {item.category}
+              </div>
+            )}
+          </div>
+        </div>
+        <div className="flex items-center gap-4 shrink-0">
+          <FormatKeyCombo keyString={item.key} />
+          <div className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-[rgba(255,255,255,0.44)] flex-shrink-0">
+            <Copy className="w-4 h-4" />
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  return (
+    <div className="h-screen flex overflow-hidden selection:bg-[#2c2c2c] selection:text-white font-sans bg-[#191919] text-[rgba(255,255,255,0.81)]">
+      
+      {/* Global Custom CSS for Notion Scrollbar */}
+      <style dangerouslySetInnerHTML={{__html: `
         ::-webkit-scrollbar {
             width: 10px;
             height: 10px;
@@ -67,7 +234,6 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #5a6065; 
         }
-        
         .no-scrollbar::-webkit-scrollbar {
             display: none;
         }
@@ -75,284 +241,175 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
+      `}} />
 
-        input:focus {
-            outline: none;
-            box-shadow: none;
-        }
-    </style>
-</head>
-<body class="h-screen flex overflow-hidden selection:bg-notion-hover selection:text-white font-sans">
+      {/* Notification Toast */}
+      <div className={`fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-[#202020] border border-[#2f2f2f] text-[rgba(255,255,255,0.81)] px-4 py-3 shadow-2xl transition-all duration-200 z-50 flex items-center gap-3 text-sm ${toastVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0 pointer-events-none'}`}>
+        <Check className="w-4 h-4 text-[rgba(255,255,255,0.44)]" />
+        <span>{toastMessage}</span>
+      </div>
 
-    <!-- Notification Toast -->
-    <div id="toast" class="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-notion-sidebar border border-notion-border text-notion-text px-4 py-3 shadow-2xl transition-all duration-200 translate-y-20 opacity-0 z-50 flex items-center gap-3 text-sm">
-        <i data-lucide="check" class="w-4 h-4 text-notion-muted"></i>
-        <span id="toast-message">Copied to clipboard</span>
-    </div>
+      {/* Mobile Toggle Button */}
+      <button 
+        className="md:hidden fixed bottom-4 right-4 z-50 bg-[#2f2f2f] p-3 rounded-full border border-[#373737] shadow-xl text-white"
+        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+      >
+        {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+      </button>
 
-    <!-- Sidebar -->
-    <aside class="w-64 bg-notion-sidebar border-r border-notion-border flex flex-col z-20 h-full flex-shrink-0">
-        <div class="p-4 border-b border-notion-border flex items-center gap-2">
-            <div class="p-1 bg-notion-text text-notion-main">
-                <i data-lucide="command" class="w-4 h-4"></i>
-            </div>
-            <h1 class="text-sm font-semibold text-notion-text">HotkeyMaster</h1>
+      {/* Sidebar */}
+      <aside className={`${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 absolute md:relative w-64 bg-[#202020] border-r border-[#2f2f2f] flex flex-col z-40 h-full flex-shrink-0 transition-transform duration-200 ease-in-out`}>
+        <div className="p-4 border-b border-[#2f2f2f] flex items-center gap-2">
+          <div className="p-1 bg-[rgba(255,255,255,0.81)] text-[#191919]">
+            <Command className="w-4 h-4" />
+          </div>
+          <h1 className="text-sm font-semibold text-[rgba(255,255,255,0.81)]">HotkeyMaster</h1>
         </div>
         
-        <div class="flex-1 overflow-y-auto no-scrollbar py-2">
-            <div class="px-3 mb-1 text-[11px] font-semibold text-notion-muted uppercase tracking-wider">
-                Software
-            </div>
-            <nav id="software-list" class="flex flex-col">
-                <!-- Populated by JS -->
-            </nav>
+        <div className="flex-1 overflow-y-auto no-scrollbar py-2">
+          <div className="px-3 mb-1 text-[11px] font-semibold text-[rgba(255,255,255,0.44)] uppercase tracking-wider">
+            Software
+          </div>
+          <nav className="flex flex-col">
+            {softwareList.map(software => {
+              const isActive = software === currentSoftware;
+              const Icon = getSoftwareIcon(software);
+              return (
+                <button
+                  key={software}
+                  onClick={() => {
+                    setCurrentSoftware(software);
+                    setSearchQuery('');
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className={`w-full text-left px-3 py-1.5 text-sm transition-none flex items-center gap-2 ${
+                    isActive 
+                      ? 'bg-[#2c2c2c] text-[rgba(255,255,255,0.81)] font-medium' 
+                      : 'text-[rgba(255,255,255,0.44)] hover:bg-[#2c2c2c] hover:text-[rgba(255,255,255,0.81)]'
+                  }`}
+                >
+                  <Icon className={`w-4 h-4 ${isActive ? 'text-[rgba(255,255,255,0.81)]' : 'text-[rgba(255,255,255,0.44)]'}`} />
+                  <span className="truncate">{software}</span>
+                </button>
+              );
+            })}
+          </nav>
         </div>
-    </aside>
+      </aside>
 
-    <!-- Main Content -->
-    <main class="flex-1 flex flex-col h-full relative overflow-hidden bg-notion-main">
+      {/* Main Content */}
+      <main className="flex-1 flex flex-col h-full relative overflow-hidden bg-[#191919]">
         
-        <!-- Header & Search -->
-        <header class="h-14 border-b border-notion-border flex items-center px-6 flex-shrink-0 z-10 bg-notion-main">
-            <h2 id="current-software-title" class="text-lg font-medium text-notion-text flex-1 flex items-center gap-2">
-                <!-- Populated by JS -->
-            </h2>
-            
-            <div class="relative w-80 flex items-center">
-                <i data-lucide="search" class="absolute left-3 text-notion-muted w-4 h-4"></i>
-                <input type="text" id="search-bar" placeholder="Search..." 
-                    class="w-full bg-transparent border border-transparent text-notion-text text-sm py-1.5 pl-9 pr-3 hover:bg-notion-hover focus:bg-notion-hover transition-colors placeholder-notion-muted">
-            </div>
+        {/* Header & Search */}
+        <header className="h-14 border-b border-[#2f2f2f] flex items-center px-4 md:px-6 flex-shrink-0 z-10 bg-[#191919]">
+          <h2 className="text-lg font-medium text-[rgba(255,255,255,0.81)] flex-1 flex items-center gap-2 truncate pr-4">
+            {loading ? 'Loading...' : error ? 'Error loading data' : currentSoftware || 'No Software'}
+          </h2>
+          
+          <div className="relative w-48 md:w-80 flex items-center">
+            <Search className="absolute left-3 text-[rgba(255,255,255,0.44)] w-4 h-4" />
+            <input 
+              type="text" 
+              placeholder="Search..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full bg-transparent border border-transparent text-[rgba(255,255,255,0.81)] text-sm py-1.5 pl-9 pr-3 hover:bg-[#2c2c2c] focus:bg-[#2c2c2c] transition-colors placeholder:text-[rgba(255,255,255,0.44)] focus:outline-none"
+            />
+          </div>
         </header>
 
-        <!-- Scrollable Content Area -->
-        <div class="flex-1 overflow-y-auto" id="main-content">
-            
-            <div id="common-section" class="border-b border-notion-border pb-6 pt-6 px-6 hidden">
-                <div class="flex items-center gap-2 text-sm font-medium text-notion-text mb-2">
-                    <i data-lucide="star" class="w-4 h-4 text-notion-muted"></i> 
-                    Most Frequently Used
-                </div>
-                <div class="border border-notion-border">
-                    <div id="common-list" class="flex flex-col">
-                        <!-- Populated by JS -->
+        {/* Category Filter Bar */}
+        {!loading && !error && availableCategories.length > 1 && (
+          <div className="flex items-center overflow-x-auto no-scrollbar py-2 px-4 md:px-6 border-b border-[#2f2f2f] bg-[#191919] gap-2 flex-shrink-0">
+            <button
+              onClick={() => setSelectedCategory('All')}
+              className={`px-3 py-1 text-sm rounded transition-colors whitespace-nowrap ${
+                selectedCategory === 'All'
+                  ? 'bg-[#2f2f2f] text-[rgba(255,255,255,0.81)] border border-[#373737]'
+                  : 'text-[rgba(255,255,255,0.44)] hover:bg-[#2c2c2c] hover:text-[rgba(255,255,255,0.81)] border border-transparent'
+              }`}
+            >
+              All Categories
+            </button>
+            {availableCategories.map(cat => (
+              <button
+                key={cat}
+                onClick={() => setSelectedCategory(cat)}
+                className={`px-3 py-1 text-sm rounded transition-colors whitespace-nowrap ${
+                  selectedCategory === cat
+                    ? 'bg-[#2f2f2f] text-[rgba(255,255,255,0.81)] border border-[#373737]'
+                    : 'text-[rgba(255,255,255,0.44)] hover:bg-[#2c2c2c] hover:text-[rgba(255,255,255,0.81)] border border-transparent'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Scrollable Content Area */}
+        <div className="flex-1 overflow-y-auto">
+          
+          {loading ? (
+            <div className="flex items-center justify-center h-full text-[rgba(255,255,255,0.44)]">
+              <p className="text-sm">Fetching Hotkeys...</p>
+            </div>
+          ) : error ? (
+            <div className="flex flex-col items-center justify-center h-full text-[rgba(255,255,255,0.44)] p-6 text-center">
+              <AlertCircle className="w-8 h-8 mb-3 text-red-500 opacity-50" />
+              <p className="text-sm">{error}</p>
+            </div>
+          ) : viewData.filtered.length === 0 ? (
+            <div className="flex flex-col items-center justify-center h-full text-[rgba(255,255,255,0.44)]">
+              <SearchX className="w-8 h-8 mb-3 opacity-50" />
+              <p className="text-sm">No results found.</p>
+            </div>
+          ) : (
+            <>
+              {/* Favorites Section */}
+              {viewData.favoriteItems.length > 0 && !searchQuery && (
+                <div className="border-b border-[#2f2f2f] pb-6 pt-6 px-4 md:px-6">
+                  <div className="flex items-center gap-2 text-sm font-medium text-[rgba(255,255,255,0.81)] mb-2">
+                    <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" /> 
+                    Favorites
+                  </div>
+                  <div className="border border-[#2f2f2f]">
+                    <div className="flex flex-col">
+                      {viewData.favoriteItems.map((item, index) => (
+                        <HotkeyRow 
+                          key={`fav-${index}`} 
+                          item={item} 
+                          isLast={index === viewData.favoriteItems.length - 1} 
+                          showCategory={true}
+                        />
+                      ))}
                     </div>
+                  </div>
                 </div>
-            </div>
+              )}
 
-            <div id="category-section" class="pb-10 pt-6 px-6">
-                <!-- Populated by JS -->
-            </div>
-
-            <div id="empty-state" class="hidden flex-col items-center justify-center h-full text-notion-muted">
-                <i data-lucide="search-x" class="w-8 h-8 mb-3 opacity-50"></i>
-                <p class="text-sm">No results found.</p>
-            </div>
+              {/* Categories */}
+              <div className="pb-10 pt-6 px-4 md:px-6">
+                {Object.keys(viewData.categories).sort().map(category => (
+                  <div key={category} className="mb-8">
+                    <div className="flex items-center gap-2 text-sm font-semibold text-[rgba(255,255,255,0.44)] uppercase tracking-wider mb-2">
+                      {category}
+                    </div>
+                    <div className="border border-[#2f2f2f] bg-[#191919]">
+                      <div className="flex flex-col">
+                        {viewData.categories[category].map((item, index) => (
+                          <HotkeyRow key={`${category}-${index}`} item={item} isLast={index === viewData.categories[category].length - 1} />
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
 
         </div>
-    </main>
-
-    <script>
-        // --- 1. STATE INITIALIZATION ---
-        let hotkeyDatabase = [];
-        let currentSoftware = "";
-        let searchQuery = "";
-        let softwareList = [];
-
-        // Load data from external JSON file
-        async function initializeData() {
-            try {
-                const response = await fetch('data.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                hotkeyDatabase = await response.json();
-                
-                softwareList = [...new Set(hotkeyDatabase.map(item => item.software))];
-                if (!softwareList.includes(currentSoftware) && softwareList.length > 0) {
-                    currentSoftware = softwareList[0];
-                }
-                
-                renderSidebar();
-                renderContent();
-            } catch (error) {
-                console.error("Could not load data.json:", error);
-                document.getElementById('current-software-title').innerHTML = "Error loading data";
-                const emptyState = document.getElementById('empty-state');
-                emptyState.classList.remove('hidden');
-                emptyState.classList.add('flex');
-                emptyState.innerHTML = `<i data-lucide="alert-circle" class="w-8 h-8 mb-3 text-red-500 opacity-50"></i><p class="text-sm">Failed to load data.json. Ensure you are running on a web server.</p>`;
-                lucide.createIcons();
-            }
-        }
-
-        // --- 2. DOM ELEMENTS ---
-        const softwareListEl = document.getElementById('software-list');
-        const currentSoftwareTitleEl = document.getElementById('current-software-title');
-        const searchInputEl = document.getElementById('search-bar');
-        const commonSectionEl = document.getElementById('common-section');
-        const commonListEl = document.getElementById('common-list');
-        const categorySectionEl = document.getElementById('category-section');
-        const emptyStateEl = document.getElementById('empty-state');
-        const toastEl = document.getElementById('toast');
-        const toastMessageEl = document.getElementById('toast-message');
-
-        // --- 4. FORMATTING UTILS ---
-        function formatKeyCombo(keyString) {
-            const parts = keyString.split(/(\s*\+\s*|\s*\/\s*)/);
-            return parts.map(part => {
-                if (part.trim() === '+' || part.trim() === '/') {
-                    return `<span class="text-notion-muted mx-1 text-[11px]">${part.trim()}</span>`;
-                }
-                return `<span class="kbd">${part.trim()}</span>`;
-            }).join('');
-        }
-
-        // --- 5. RENDER LOGIC ---
-        function renderSidebar() {
-            softwareListEl.innerHTML = '';
-            softwareList.forEach(software => {
-                const btn = document.createElement('button');
-                const isActive = software === currentSoftware;
-                
-                btn.className = `w-full text-left px-3 py-1.5 text-sm transition-none flex items-center gap-2 ${
-                    isActive ? 'bg-notion-hover text-notion-text font-medium' : 'text-notion-muted hover:bg-notion-hover hover:text-notion-text'
-                }`;
-                
-                let icon = 'monitor';
-                if(software.includes("Unreal")) icon = 'gamepad-2';
-                else if(software.includes("DaVinci") || software.includes("PotPlayer")) icon = 'film';
-                else if(software.includes("Blender") || software.includes("Maya") || software.includes("Houdini")) icon = 'box';
-                else if(software.includes("Affinity")) icon = 'pen-tool';
-                else if(software.includes("Windows") || software.includes("PowerToys")) icon = 'cpu';
-                else if(software.includes("ShareX")) icon = 'camera';
-
-                btn.innerHTML = `
-                    <i data-lucide="${icon}" class="w-4 h-4 ${isActive ? 'text-notion-text' : 'text-notion-muted'}"></i>
-                    <span class="truncate">${software}</span>
-                `;
-                
-                btn.onclick = () => {
-                    currentSoftware = software;
-                    searchInputEl.value = "";
-                    searchQuery = "";
-                    renderSidebar();
-                    renderContent();
-                };
-                softwareListEl.appendChild(btn);
-            });
-            lucide.createIcons();
-        }
-
-        function createRowHTML(item, isLast = false) {
-            const borderClass = isLast ? '' : 'border-b border-notion-border';
-            return `
-                <div class="flex items-center justify-between p-2.5 hover:bg-notion-hover cursor-pointer group transition-none ${borderClass}" onclick="copyToClipboard('${item.key}')">
-                    <div class="flex items-center gap-3">
-                        <div class="text-sm text-notion-text">${item.action}</div>
-                    </div>
-                    <div class="flex items-center gap-4">
-                        <div class="flex items-center">
-                            ${formatKeyCombo(item.key)}
-                        </div>
-                        <div class="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-notion-muted flex-shrink-0">
-                            <i data-lucide="copy" class="w-4 h-4"></i>
-                        </div>
-                    </div>
-                </div>
-            `;
-        }
-
-        function renderContent() {
-            currentSoftwareTitleEl.innerHTML = currentSoftware || "No Data";
-
-            let filteredData = hotkeyDatabase.filter(item => item.software === currentSoftware);
-            
-            if (searchQuery) {
-                const query = searchQuery.toLowerCase();
-                filteredData = filteredData.filter(item => 
-                    item.action.toLowerCase().includes(query) || 
-                    item.key.toLowerCase().includes(query) ||
-                    item.category.toLowerCase().includes(query)
-                );
-            }
-
-            if (filteredData.length === 0) {
-                commonSectionEl.classList.add('hidden');
-                categorySectionEl.classList.add('hidden');
-                emptyStateEl.classList.remove('hidden');
-                emptyStateEl.classList.add('flex');
-                return;
-            } else {
-                emptyStateEl.classList.add('hidden');
-                emptyStateEl.classList.remove('flex');
-                categorySectionEl.classList.remove('hidden');
-            }
-
-            const commonItems = filteredData.filter(item => item.common);
-            if (commonItems.length > 0 && !searchQuery) {
-                commonSectionEl.classList.remove('hidden');
-                commonListEl.innerHTML = commonItems.map((item, index) => 
-                    createRowHTML(item, index === commonItems.length - 1)
-                ).join('');
-            } else {
-                commonSectionEl.classList.add('hidden');
-            }
-
-            categorySectionEl.innerHTML = '';
-            const categories = {};
-            filteredData.forEach(item => {
-                if (!categories[item.category]) categories[item.category] = [];
-                categories[item.category].push(item);
-            });
-
-            Object.keys(categories).sort().forEach(category => {
-                const catDiv = document.createElement('div');
-                catDiv.className = "mb-8";
-                const itemsHTML = categories[category].map((item, index) => createRowHTML(item, index === categories[category].length - 1)).join('');
-                catDiv.innerHTML = `
-                    <div class="flex items-center gap-2 text-sm font-semibold text-notion-muted uppercase tracking-wider mb-2">
-                        ${category}
-                    </div>
-                    <div class="border border-notion-border bg-notion-main">
-                        <div class="flex flex-col">${itemsHTML}</div>
-                    </div>
-                `;
-                categorySectionEl.appendChild(catDiv);
-            });
-
-            lucide.createIcons();
-        }
-
-        // --- 6. UTILITIES (COPY) ---
-        function copyToClipboard(text) {
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            document.body.appendChild(textarea);
-            textarea.select();
-            document.execCommand('copy');
-            document.body.removeChild(textarea);
-            showToast("Copied to clipboard");
-        }
-
-        let toastTimeout;
-        function showToast(message) {
-            toastMessageEl.innerText = message;
-            clearTimeout(toastTimeout);
-            toastEl.classList.remove('translate-y-20', 'opacity-0');
-            toastTimeout = setTimeout(() => {
-                toastEl.classList.add('translate-y-20', 'opacity-0');
-            }, 2500);
-        }
-
-        // --- 7. EVENT LISTENERS ---
-        searchInputEl.addEventListener('input', (e) => {
-            searchQuery = e.target.value;
-            renderContent();
-        });
-
-        // Boot up
-        initializeData();
-    </script>
-</body>
-</html>
+      </main>
+    </div>
+  );
+}
