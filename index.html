@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotkey Command Center</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        notion: {
+                            main: '#191919',
+                            sidebar: '#202020',
+                            hover: '#2c2c2c',
+                            border: '#2f2f2f',
+                            text: 'rgba(255, 255, 255, 0.81)',
+                            muted: 'rgba(255, 255, 255, 0.44)',
+                            key: '#2f2f2f',
+                            keyborder: '#373737'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Helvetica', '"Apple Color Emoji"', 'Arial', 'sans-serif', '"Segoe UI Emoji"', '"Segoe UI Symbol"'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #191919;
+            color: rgba(255, 255, 255, 0.81);
+        }
+
+        /* Notion-style flat sharp keys */
+        .kbd {
+            display: inline-block;
+            padding: 0.15rem 0.4rem;
+            font-size: 0.85rem;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            color: rgba(255, 255, 255, 0.81);
+            background-color: #2f2f2f;
+            border: 1px solid #373737;
+            border-radius: 0px; 
+            margin: 0 0.1rem;
+            transition: background-color 0.1s ease;
+        }
+
+        /* Custom Scrollbar to match Notion */
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #474c50; 
+            border: 2px solid #191919;
+            border-radius: 0px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #5a6065; 
+        }
+        
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        input:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body class="h-screen flex overflow-hidden selection:bg-notion-hover selection:text-white font-sans">
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-notion-sidebar border border-notion-border text-notion-text px-4 py-3 shadow-2xl transition-all duration-200 translate-y-20 opacity-0 z-50 flex items-center gap-3 text-sm">
+        <i data-lucide="check" class="w-4 h-4 text-notion-muted"></i>
+        <span id="toast-message">Copied to clipboard</span>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-notion-sidebar border-r border-notion-border flex flex-col z-20 h-full flex-shrink-0">
+        <div class="p-4 border-b border-notion-border flex items-center gap-2">
+            <div class="p-1 bg-notion-text text-notion-main">
+                <i data-lucide="command" class="w-4 h-4"></i>
+            </div>
+            <h1 class="text-sm font-semibold text-notion-text">HotkeyMaster</h1>
+        </div>
+        
+        <div class="flex-1 overflow-y-auto no-scrollbar py-2">
+            <div class="px-3 mb-1 text-[11px] font-semibold text-notion-muted uppercase tracking-wider">
+                Software
+            </div>
+            <nav id="software-list" class="flex flex-col">
+                <!-- Populated by JS -->
+            </nav>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col h-full relative overflow-hidden bg-notion-main">
+        
+        <!-- Header & Search -->
+        <header class="h-14 border-b border-notion-border flex items-center px-6 flex-shrink-0 z-10 bg-notion-main">
+            <h2 id="current-software-title" class="text-lg font-medium text-notion-text flex-1 flex items-center gap-2">
+                <!-- Populated by JS -->
+            </h2>
+            
+            <div class="relative w-80 flex items-center">
+                <i data-lucide="search" class="absolute left-3 text-notion-muted w-4 h-4"></i>
+                <input type="text" id="search-bar" placeholder="Search..." 
+                    class="w-full bg-transparent border border-transparent text-notion-text text-sm py-1.5 pl-9 pr-3 hover:bg-notion-hover focus:bg-notion-hover transition-colors placeholder-notion-muted">
+            </div>
+        </header>
+
+        <!-- Scrollable Content Area -->
+        <div class="flex-1 overflow-y-auto" id="main-content">
+            
+            <div id="common-section" class="border-b border-notion-border pb-6 pt-6 px-6 hidden">
+                <div class="flex items-center gap-2 text-sm font-medium text-notion-text mb-2">
+                    <i data-lucide="star" class="w-4 h-4 text-notion-muted"></i> 
+                    Most Frequently Used
+                </div>
+                <div class="border border-notion-border">
+                    <div id="common-list" class="flex flex-col">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="category-section" class="pb-10 pt-6 px-6">
+                <!-- Populated by JS -->
+            </div>
+
+            <div id="empty-state" class="hidden flex-col items-center justify-center h-full text-notion-muted">
+                <i data-lucide="search-x" class="w-8 h-8 mb-3 opacity-50"></i>
+                <p class="text-sm">No results found.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <script>
+        // --- 1. STATE INITIALIZATION ---
+        let hotkeyDatabase = [];
+        let currentSoftware = "";
+        let searchQuery = "";
+        let softwareList = [];
+
+        // Load data from external JSON file
+        async function initializeData() {
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                hotkeyDatabase = await response.json();
+                
+                softwareList = [...new Set(hotkeyDatabase.map(item => item.software))];
+                if (!softwareList.includes(currentSoftware) && softwareList.length > 0) {
+                    currentSoftware = softwareList[0];
+                }
+                
+                renderSidebar();
+                renderContent();
+            } catch (error) {
+                console.error("Could not load data.json:", error);
+                document.getElementById('current-software-title').innerHTML = "Error loading data";
+                const emptyState = document.getElementById('empty-state');
+                emptyState.classList.remove('hidden');
+                emptyState.classList.add('flex');
+                emptyState.innerHTML = `<i data-lucide="alert-circle" class="w-8 h-8 mb-3 text-red-500 opacity-50"></i><p class="text-sm">Failed to load data.json. Ensure you are running on a web server.</p>`;
+                lucide.createIcons();
+            }
+        }
+
+        // --- 2. DOM ELEMENTS ---
+        const softwareListEl = document.getElementById('software-list');
+        const currentSoftwareTitleEl = document.getElementById('current-software-title');
+        const searchInputEl = document.getElementById('search-bar');
+        const commonSectionEl = document.getElementById('common-section');
+        const commonListEl = document.getElementById('common-list');
+        const categorySectionEl = document.getElementById('category-section');
+        const emptyStateEl = document.getElementById('empty-state');
+        const toastEl = document.getElementById('toast');
+        const toastMessageEl = document.getElementById('toast-message');
+
+        // --- 4. FORMATTING UTILS ---
+        function formatKeyCombo(keyString) {
+            const parts = keyString.split(/(\s*\+\s*|\s*\/\s*)/);
+            return parts.map(part => {
+                if (part.trim() === '+' || part.trim() === '/') {
+                    return `<span class="text-notion-muted mx-1 text-[11px]">${part.trim()}</span>`;
+                }
+                return `<span class="kbd">${part.trim()}</span>`;
+            }).join('');
+        }
+
+        // --- 5. RENDER LOGIC ---
+        function renderSidebar() {
+            softwareListEl.innerHTML = '';
+            softwareList.forEach(software => {
+                const btn = document.createElement('button');
+                const isActive = software === currentSoftware;
+                
+                btn.className = `w-full text-left px-3 py-1.5 text-sm transition-none flex items-center gap-2 ${
+                    isActive ? 'bg-notion-hover text-notion-text font-medium' : 'text-notion-muted hover:bg-notion-hover hover:text-notion-text'
+                }`;
+                
+                let icon = 'monitor';
+                if(software.includes("Unreal")) icon = 'gamepad-2';
+                else if(software.includes("DaVinci") || software.includes("PotPlayer")) icon = 'film';
+                else if(software.includes("Blender") || software.includes("Maya") || software.includes("Houdini")) icon = 'box';
+                else if(software.includes("Affinity")) icon = 'pen-tool';
+                else if(software.includes("Windows") || software.includes("PowerToys")) icon = 'cpu';
+                else if(software.includes("ShareX")) icon = 'camera';
+
+                btn.innerHTML = `
+                    <i data-lucide="${icon}" class="w-4 h-4 ${isActive ? 'text-notion-text' : 'text-notion-muted'}"></i>
+                    <span class="truncate">${software}</span>
+                `;
+                
+                btn.onclick = () => {
+                    currentSoftware = software;
+                    searchInputEl.value = "";
+                    searchQuery = "";
+                    renderSidebar();
+                    renderContent();
+                };
+                softwareListEl.appendChild(btn);
+            });
+            lucide.createIcons();
+        }
+
+        function createRowHTML(item, isLast = false) {
+            const borderClass = isLast ? '' : 'border-b border-notion-border';
+            return `
+                <div class="flex items-center justify-between p-2.5 hover:bg-notion-hover cursor-pointer group transition-none ${borderClass}" onclick="copyToClipboard('${item.key}')">
+                    <div class="flex items-center gap-3">
+                        <div class="text-sm text-notion-text">${item.action}</div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="flex items-center">
+                            ${formatKeyCombo(item.key)}
+                        </div>
+                        <div class="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-notion-muted flex-shrink-0">
+                            <i data-lucide="copy" class="w-4 h-4"></i>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderContent() {
+            currentSoftwareTitleEl.innerHTML = currentSoftware || "No Data";
+
+            let filteredData = hotkeyDatabase.filter(item => item.software === currentSoftware);
+            
+            if (searchQuery) {
+                const query = searchQuery.toLowerCase();
+                filteredData = filteredData.filter(item => 
+                    item.action.toLowerCase().includes(query) || 
+                    item.key.toLowerCase().includes(query) ||
+                    item.category.toLowerCase().includes(query)
+                );
+            }
+
+            if (filteredData.length === 0) {
+                commonSectionEl.classList.add('hidden');
+                categorySectionEl.classList.add('hidden');
+                emptyStateEl.classList.remove('hidden');
+                emptyStateEl.classList.add('flex');
+                return;
+            } else {
+                emptyStateEl.classList.add('hidden');
+                emptyStateEl.classList.remove('flex');
+                categorySectionEl.classList.remove('hidden');
+            }
+
+            const commonItems = filteredData.filter(item => item.common);
+            if (commonItems.length > 0 && !searchQuery) {
+                commonSectionEl.classList.remove('hidden');
+                commonListEl.innerHTML = commonItems.map((item, index) => 
+                    createRowHTML(item, index === commonItems.length - 1)
+                ).join('');
+            } else {
+                commonSectionEl.classList.add('hidden');
+            }
+
+            categorySectionEl.innerHTML = '';
+            const categories = {};
+            filteredData.forEach(item => {
+                if (!categories[item.category]) categories[item.category] = [];
+                categories[item.category].push(item);
+            });
+
+            Object.keys(categories).sort().forEach(category => {
+                const catDiv = document.createElement('div');
+                catDiv.className = "mb-8";
+                const itemsHTML = categories[category].map((item, index) => createRowHTML(item, index === categories[category].length - 1)).join('');
+                catDiv.innerHTML = `
+                    <div class="flex items-center gap-2 text-sm font-semibold text-notion-muted uppercase tracking-wider mb-2">
+                        ${category}
+                    </div>
+                    <div class="border border-notion-border bg-notion-main">
+                        <div class="flex flex-col">${itemsHTML}</div>
+                    </div>
+                `;
+                categorySectionEl.appendChild(catDiv);
+            });
+
+            lucide.createIcons();
+        }
+
+        // --- 6. UTILITIES (COPY) ---
+        function copyToClipboard(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            showToast("Copied to clipboard");
+        }
+
+        let toastTimeout;
+        function showToast(message) {
+            toastMessageEl.innerText = message;
+            clearTimeout(toastTimeout);
+            toastEl.classList.remove('translate-y-20', 'opacity-0');
+            toastTimeout = setTimeout(() => {
+                toastEl.classList.add('translate-y-20', 'opacity-0');
+            }, 2500);
+        }
+
+        // --- 7. EVENT LISTENERS ---
+        searchInputEl.addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            renderContent();
+        });
+
+        // Boot up
+        initializeData();
+    </script>
+</body>
+</html>
