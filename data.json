@@ -37,9 +37,9 @@
     },
     {
         "software": "Houdini",
-        "category": "Network",
-        "action": "Node Search Menu",
-        "key": "Tab"
+        "category": "Modes",
+        "action": "Object mode",
+        "key": "1"
     },
     {
         "software": "Nuke",
@@ -5812,5 +5812,503 @@
         "category": "Layout",
         "action": "Toggle Unicode",
         "key": "Alt + U"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Points",
+        "key": "2"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Edges",
+        "key": "3"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Primitives",
+        "key": "4"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Vertices (UV)",
+        "key": "5"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Dynamics select",
+        "key": "6"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Select Groups toggle",
+        "key": "7"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Handle Mode",
+        "key": "8"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Scale the handle down/up",
+        "key": "9 / *"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Attach / Detach handle to geometry",
+        "key": "Enter / J"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Scale",
+        "key": "E"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Rotate",
+        "key": "R"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Transpose (Move)",
+        "key": "T"
+    },
+    {
+        "software": "Houdini",
+        "category": "Modes",
+        "action": "Cycle through ERT",
+        "key": "Y"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Select Edges loop",
+        "key": "MMB"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "All objects",
+        "key": "A"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "None objects",
+        "key": "N"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Invert objects selection",
+        "key": "Ctrl + 1"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "All nodes",
+        "key": "Ctrl + A"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Box selection mode",
+        "key": "F2"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Lasso selection mode",
+        "key": "F3"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Brush selection mode",
+        "key": "F4"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Laser selection mode",
+        "key": "F5"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Select only visible toggle",
+        "key": "Shift + V"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Select only full contained geo toggle",
+        "key": "Shift + C"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Secure selection",
+        "key": "2"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Selection mode",
+        "key": "S (Hold)"
+    },
+    {
+        "software": "Houdini",
+        "category": "Selection",
+        "action": "Cycle through axis alignment modes",
+        "key": "M"
+    },
+    {
+        "software": "Houdini",
+        "category": "Interface",
+        "action": "Split the pane vertically",
+        "key": "Alt + ["
+    },
+    {
+        "software": "Houdini",
+        "category": "Interface",
+        "action": "Split the pane horizontally",
+        "key": "Alt + ]"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "View tool (temporary)",
+        "key": "Space (Hold)"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Perspective",
+        "key": "Space + 1"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Top",
+        "key": "Space + 2"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Front / Back",
+        "key": "Space + 3"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Right / Left",
+        "key": "Space + 4"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "UV",
+        "key": "Space + 5"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Single View",
+        "key": "Ctrl + 1"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "2 views side-by-side",
+        "key": "Ctrl + 2"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "3 views",
+        "key": "Ctrl + 3"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "4 views",
+        "key": "Ctrl + 4"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Expand current view",
+        "key": "Space + B"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Toggle between and local geometry context",
+        "key": "Space + Y"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Wireframe",
+        "key": "W"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Wireframe (Toggle)",
+        "key": "Shift + W"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "View radial menu",
+        "key": "V"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Save quick view 1-4",
+        "key": "Ctrl + 6-9"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Quick view 1-4",
+        "key": "6-9"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Center the view on all selected objects/geometry",
+        "key": "Space + G"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Center view tumbling on the point under the cursor",
+        "key": "Space + Z"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Display options",
+        "key": "D"
+    },
+    {
+        "software": "Houdini",
+        "category": "Viewports",
+        "action": "Home: center the view to show all objects/geometry",
+        "key": "Space + H"
+    },
+    {
+        "software": "Houdini",
+        "category": "Snapping and Alignment",
+        "action": "Snapping radial menu",
+        "key": "X"
+    },
+    {
+        "software": "Houdini",
+        "category": "Snapping and Alignment",
+        "action": "Multi Snap Settings",
+        "key": "Ctrl + Shift + J"
+    },
+    {
+        "software": "Houdini",
+        "category": "Snapping and Alignment",
+        "action": "Pivot Mode",
+        "key": "Ins"
+    },
+    {
+        "software": "Houdini",
+        "category": "Snapping and Alignment",
+        "action": "Align state",
+        "key": ";"
+    },
+    {
+        "software": "Houdini",
+        "category": "Snapping and Alignment",
+        "action": "Construction Plane alignment",
+        "key": "/ (Hold)"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Browse forward",
+        "key": "Alt + Right Arrow"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Browse back",
+        "key": "Alt + Left Arrow"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Enter current node",
+        "key": "Enter"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Show tree view",
+        "key": "Shift + W"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Toggle node display flag",
+        "key": "R"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Toggle node selectable flag",
+        "key": "1"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Toggle node bypass",
+        "key": "Q / B"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Node connection scissors mode",
+        "key": "Y (Hold)"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Copy node and all after",
+        "key": "Ctrl + Alt + Drag"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Copy node and all before",
+        "key": "Ctrl + Shift + Drag"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Copy nodes as references",
+        "key": "Alt + Ctrl + Shift + Drag"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Layout nodes",
+        "key": "L"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Layout selected nodes",
+        "key": "Shift + L"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Layout nodes after/before selected to the direction of mouse drag",
+        "key": "A + Drag"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Switch/cycle node inputs order",
+        "key": "Shift + R"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Move all nodes after selected",
+        "key": "Ctrl + Drag"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Move all nodes before selected",
+        "key": "Shift + Drag"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Node colour palette",
+        "key": "C"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Node shape palette",
+        "key": "Z"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Network box selected nodes",
+        "key": "Shift + O"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Minimise / maximise selected network boxes",
+        "key": "Shift + J / K"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Auto resize network boxes",
+        "key": "Shift + M"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "New sticky note",
+        "key": "Shift + P"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Create quickmark",
+        "key": "Ctrl + 1-5"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Recall quickmark",
+        "key": "1-5"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Create bookmark",
+        "key": "Alt + Shift + K"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Edit Bookmarks",
+        "key": "Alt + B"
+    },
+    {
+        "software": "Houdini",
+        "category": "Network Editor",
+        "action": "Edit image mode (Network Overview)",
+        "key": "Ctrl + 1"
     }
 ]
