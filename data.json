@@ -49,9 +49,9 @@
     },
     {
         "software": "PowerToys",
-        "category": "Utilities",
-        "action": "PowerToys Run (Search)",
-        "key": "Alt + Space"
+        "category": "General",
+        "action": "Open Advanced Paste window",
+        "key": "Win + Shift + V"
     },
     {
         "software": "Windows OS",
@@ -8860,5 +8860,101 @@
         "category": "Roto/RotoPaint",
         "action": "Increase/decrease tension",
         "key": "Ctrl + Shift + Drag"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Open Advanced Paste window",
+        "key": "Win + Shift + V"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Paste as plain text directly",
+        "key": "Win + Ctrl + Alt + V"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Pin a window",
+        "key": "Win + Ctrl + T"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Pick a color",
+        "key": "Win + Shift + C"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Open Command Palette",
+        "key": "Win + Shift + P"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Crop and create a thumbnail",
+        "key": "Win + Ctrl + Shift + T"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Crop an app's window into a cropped window",
+        "key": "Win + Ctrl + Shift + R"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Crop an app into a screenshot window",
+        "key": "Win + Ctrl + Shift + S"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Activate zones",
+        "key": "Hold Shift"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Open editor",
+        "key": "Win + Shift + `"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Turn on clicks highlighter",
+        "key": "Win + Shift + H"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Preview file",
+        "key": "Ctrl + Space"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Open Run",
+        "key": "Alt + Space"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Start measurement",
+        "key": "Win + Ctrl + Shift + M"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Open Shortcut Guide",
+        "key": "Win + Shift + /"
+    },
+    {
+        "software": "PowerToys",
+        "category": "General",
+        "action": "Open editor",
+        "key": "Win + Ctrl + `"
     }
 ]
